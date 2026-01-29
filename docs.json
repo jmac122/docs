@@ -1,122 +1,124 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "PSS Podio Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563eb",
+    "light": "#3b82f6",
+    "dark": "#1d4ed8"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "getting-started/logging-in",
+              "getting-started/the-interface",
+              "getting-started/searching-and-filtering"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Core Concepts",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "core-concepts/apps-and-items",
+              "core-concepts/fields-and-data",
+              "core-concepts/views-and-filters",
+              "core-concepts/our-apps-explained",
+              "core-concepts/how-everything-connects"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Projects",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "projects/the-project-page",
+              "projects/creating-a-project",
+              "projects/finding-projects",
+              "projects/editing-project-info"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Stages",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "stages/how-stages-work",
+              "stages/pre-construction",
+              "stages/mobilization",
+              "stages/construction"
+            ]
+          },
+          {
+            "group": "Tasks",
+            "pages": [
+              "tasks/finding-your-tasks",
+              "tasks/completing-tasks",
+              "tasks/checking-job-status",
+              "tasks/dependencies",
+              "tasks/creating-tasks",
+              "tasks/assigning-tasks"
+            ]
+          },
+          {
+            "group": "Automations",
+            "pages": [
+              "automations/what-happens-automatically",
+              "automations/task-population",
+              "automations/troubleshooting-automations"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Workflows",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Submittals, RFIs & Change Orders",
             "pages": [
-              "api-reference/introduction"
+              "submittals-rfis-change-orders/submittals",
+              "submittals-rfis-change-orders/rfis",
+              "submittals-rfis-change-orders/change-orders"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Contacts",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "contacts/adding-contacts",
+              "contacts/linking-to-projects"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "JLCP Task Library",
+            "pages": [
+              "reference/jlcp-matrix",
+              "reference/jlcp-dependencies"
+            ]
+          },
+          {
+            "group": "Quick Reference",
+            "pages": [
+              "reference/glossary",
+              "reference/cheatsheet",
+              "reference/faq"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://precisionsiteservices.com"
     }
   }
 }
