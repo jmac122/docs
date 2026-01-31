@@ -123,7 +123,7 @@ Task A (Independent)
 
 When you complete Task A, Task B automatically moves to "In Progress" and the responsible person gets notified.
 
-📸 [Screenshot placeholder: Chain of dependent tasks showing status progression]
+![Chain of dependent tasks showing status progression](/img/projects/detail-page/14-progress-tasks-count.png)
 
 ---
 

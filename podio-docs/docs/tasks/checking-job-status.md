@@ -9,7 +9,7 @@ Go to **Projects** app → Click the job you want to check
 
 ### 2. Key Numbers to Check
 
-📸 [Screenshot placeholder: Project page showing progress metrics]
+![Project page showing progress metrics](/img/projects/detail-page/14-progress-tasks-count.png)
 
 **Overall Progress**
 - Shows average completion % across all stages

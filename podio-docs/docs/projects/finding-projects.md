@@ -8,13 +8,13 @@ You've got dozens (or hundreds) of projects in Podio. Here's how to find the one
 
 ### Open the Projects App
 
-📸 [Screenshot placeholder: Podio workspace with Projects app highlighted]
+![Podio workspace with Projects app highlighted](/img/getting-started/01-workspace-home.jpg)
 
 - Go to **Precision Projects** workspace
 - Click **Projects**
 - You'll see a list of all projects
 
-📸 [Screenshot placeholder: Projects list view showing multiple projects]
+![Projects list view showing multiple projects](/img/projects/list-views/01-projects-list-all.png)
 
 ---
 
@@ -27,7 +27,7 @@ Click the column headers to sort:
 - **Current Stage Status** - Group by stage (all Pre-Con projects together, etc.)
 - **Project Manager** - See all projects by PM
 
-📸 [Screenshot placeholder: Projects list with column headers highlighted for sorting]
+![Projects list with column headers highlighted for sorting](/img/projects/list-views/05-column-headers-sortable.png)
 
 **Tip:** Click the header once to sort ascending (A-Z, oldest-newest), click again to sort descending (Z-A, newest-oldest).
 
@@ -60,7 +60,7 @@ Want to see only active construction projects? Or all jobs in Pre-Con?
 
 ### Use the Filter Sidebar
 
-📸 [Screenshot placeholder: Projects app with filter sidebar visible]
+![Projects app with filter sidebar visible](/img/projects/list-views/02-filter-sidebar-stages.png)
 
 1. In the Projects app, look for **Filters** on the left side
 2. Click **Current Stage Status**
@@ -72,7 +72,7 @@ Want to see only active construction projects? Or all jobs in Pre-Con?
    - Retainage Active
 4. The list updates to show only those projects
 
-📸 [Screenshot placeholder: Filter sidebar with stage checkboxes and results filtered]
+![Filter sidebar with stage checkboxes and results filtered](/img/projects/list-views/02-filter-sidebar-stages.png)
 
 **Tip:** You can select multiple stages to see, for example, all jobs in Construction OR Demob.
 
@@ -84,7 +84,7 @@ Need to see all jobs assigned to a specific PM or foreman?
 
 ### Filter by User
 
-📸 [Screenshot placeholder: Filter sidebar showing user fields]
+![Filter sidebar showing user fields](/img/projects/list-views/02-filter-sidebar-stages.png)
 
 1. In the Projects app, click **Filters**
 2. Click **Project Manager**, **Foreman**, **OC**, or **FOCS**
@@ -119,7 +119,7 @@ Want to see all jobs for a specific general contractor?
 2. Select the GC name from the list
 3. List shows only projects for that company
 
-📸 [Screenshot placeholder: Company filter showing all projects for one GC]
+![Company filter showing all projects for one GC](/img/projects/list-views/04-view-by-gc.png)
 
 ---
 

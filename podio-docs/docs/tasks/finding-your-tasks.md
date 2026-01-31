@@ -15,7 +15,7 @@ The fastest way to see everything assigned to you:
 2. Use the filter to show tasks where **Responsible** = You
 3. Sort by **Due Date** to see what's urgent
 
-📸 [Screenshot placeholder: Tasks app with filter showing "Responsible = My name"]
+![Tasks app with filter showing "Responsible = My name"](/img/tasks/detail-page/09-task-responsible-field.png)
 
 **What you'll see:**
 - Task Name
@@ -34,7 +34,7 @@ If you want to see all tasks for a specific job:
 5. Click the active stage (e.g., "Pre-Construction Active")
 6. Scroll to **Task Overview** to see all tasks for that stage
 
-📸 [Screenshot placeholder: Project page showing Linked Stages section]
+![Project page showing Linked Stages section](/img/projects/detail-page/13-linked-stages.png)
 
 **Why this matters:** Tasks are organized by stage because different work happens at different phases. Pre-Construction tasks are about planning and permits. Construction tasks are about daily field work.
 
@@ -58,7 +58,7 @@ Some tasks show **"Ind or Dep"** as either:
 
 **If a task is Dependent and shows Pending status**, check the **Dependencies** field to see what needs to be completed before you can start.
 
-📸 [Screenshot placeholder: Task detail showing Dependencies field]
+![Task detail showing Dependencies field](/img/tasks/detail-page/01-task-detail-full-page.png)
 
 More on this in [dependencies.md](dependencies.md).
 

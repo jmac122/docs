@@ -32,7 +32,7 @@ You move through them in order. You can't skip stages.
 
 Think of them like folders — each stage holds its own tasks, dates, and notes.
 
-📸 [Screenshot placeholder: Project page showing "Linked Stages" field with all 5 stages]
+![Project page showing "Linked Stages" field with all 5 stages](/img/projects/detail-page/13-linked-stages.png)
 
 ---
 
@@ -48,7 +48,7 @@ Here's the magic:
 
 **Why just-in-time?** If Podio created ALL tasks for ALL stages up front, you'd have hundreds of tasks cluttering your project before you even started. This way, you only see tasks for the stage you're actually in.
 
-📸 [Screenshot placeholder: Current Stage Status dropdown with "Pre-Construction Active" selected, and tasks appearing in Pre-Construction stage]
+![Current Stage Status dropdown with "Pre-Construction Active" selected, and tasks appearing in Pre-Construction stage](/img/projects/detail-page/12-current-stage-status.png)
 
 ---
 
@@ -163,7 +163,7 @@ When you're ready to move to the next stage:
 
 ### From the Project Page
 
-📸 [Screenshot placeholder: Project page with Linked Stages field highlighted]
+![Project page with Linked Stages field highlighted](/img/projects/detail-page/13-linked-stages.png)
 
 1. Open your project
 2. Scroll to **Linked Stages**

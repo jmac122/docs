@@ -26,7 +26,7 @@ Things usually work smoothly, but sometimes automations don't fire as expected. 
 - Blank ❌ (automation didn't trigger)
 - "2 - Creation Complete" ⏸️ (tasks created, but dependencies not linked yet)
 
-📸 [Screenshot placeholder: Stage detail showing Automation Status field]
+![Stage detail showing Automation Status field](/img/tasks/detail-page/05-task-status-field.png)
 
 **Step 2: Check Task Templates Exist**
 The automation pulls from **Task Templates** app.
@@ -126,7 +126,7 @@ If automation failed or templates are incomplete:
 
 Repeat for each dependent task.
 
-📸 [Screenshot placeholder: Editing Dependencies field on a task]
+![Editing Dependencies field on a task](/img/tasks/dependencies/01-tasks-dependency-column.png)
 
 This is tedious but ensures workflows work correctly.
 

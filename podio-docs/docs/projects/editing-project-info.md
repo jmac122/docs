@@ -13,7 +13,7 @@ Use any method from [Finding Projects](finding-projects.md):
 - Browse the Projects list
 - Filter by stage, PM, or division
 
-📸 [Screenshot placeholder: Projects list with one project highlighted]
+![Projects list with one project highlighted](/img/projects/list-views/01-projects-list-all.png)
 
 ---
 
@@ -139,7 +139,7 @@ After editing:
 2. Changes are applied immediately
 3. Anyone viewing the project will see the updates
 
-📸 [Screenshot placeholder: Save button at bottom of edit form]
+![Save button at bottom of edit form](/img/projects/creating-editing/20-save-button.png)
 
 ---
 
@@ -178,7 +178,7 @@ After editing:
 **Shortcut for quick notes:**
 Just type their name and phone in the **GC Contacts** text field if you don't need a full contact record.
 
-📸 [Screenshot placeholder: Customer/GC field with contact search popup]
+![Customer/GC field with contact search popup](/img/projects/detail-page/11-customer-gc-field.png)
 
 ---
 
@@ -197,7 +197,7 @@ Just type their name and phone in the **GC Contacts** text field if you don't ne
 
 **Tip:** If this is a change order, document it! Add a note in a task or upload the change order document to Documents & Logs.
 
-📸 [Screenshot placeholder: Budget fields being edited with new values]
+![Budget fields being edited with new values](/img/projects/detail-page/10-budget-fields.png)
 
 ---
 
@@ -218,7 +218,7 @@ Just type their name and phone in the **GC Contacts** text field if you don't ne
 
 **Tip:** Name files clearly before uploading (e.g., "Contract-Signed-2024-01-15.pdf" instead of "scan001.pdf").
 
-📸 [Screenshot placeholder: Documents & Logs field with files being uploaded]
+![Documents & Logs field with files being uploaded](/img/projects/creating-editing/21-documents-upload.png)
 
 ---
 

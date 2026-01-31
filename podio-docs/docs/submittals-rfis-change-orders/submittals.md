@@ -47,7 +47,7 @@ Submittals are tracked as **Tasks** in the **Pre-Construction Stage** of your pr
 2. Add a note explaining what needs to change
 3. Upload the revised version when ready
 
-📸 [Screenshot placeholder: Task card showing Status field and Attachments area]
+![Task card showing Status field and Attachments area](/img/tasks/detail-page/05-task-status-field.png)
 
 ### 3. Track Dependencies
 

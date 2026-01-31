@@ -34,7 +34,7 @@ Every task in Podio has a field called **Ind or Dep** with two options:
 - "Install forms" (waits for "Complete site grading")
 - "Final inspection" (waits for "Punch list complete")
 
-📸 [Screenshot placeholder: Task showing Ind or Dep = Dependent and Dependencies field listing prerequisite task]
+![Task showing Ind or Dep = Dependent and Dependencies field listing prerequisite task](/img/tasks/detail-page/06-task-ind-or-dep-field.png)
 
 ## How Dependencies Work (Automatic!)
 
@@ -60,7 +60,7 @@ Here's the magic of the system:
 - The responsible person was notified
 - The workflow moves forward smoothly
 
-📸 [Screenshot placeholder: Before/After showing Pending task becoming In Progress after dependency completes]
+![Before/After showing Pending task becoming In Progress after dependency completes](/img/projects/detail-page/14-progress-tasks-count.png)
 
 ## Example Workflow: SSSP (Site Specific Safety Plan)
 
@@ -111,7 +111,7 @@ If you see a task with **Status = Pending** and **Ind or Dep = Dependent**:
    - Current status
    - When it's due
 
-📸 [Screenshot placeholder: Task Dependencies field showing linked prerequisite task]
+![Task Dependencies field showing linked prerequisite task](/img/tasks/dependencies/01-tasks-dependency-column.png)
 
 ## How to Check What's Waiting on You
 

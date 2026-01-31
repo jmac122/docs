@@ -48,7 +48,7 @@ You should manually create a task when:
 - Pick the project from the dropdown
 - This connects the task to the overall job
 
-📸 [Screenshot placeholder: Task creation form showing required fields]
+![Task creation form showing required fields](/img/projects/creating-editing/16-required-fields.png)
 
 ### Step 3: Fill Out Optional But Helpful Fields
 

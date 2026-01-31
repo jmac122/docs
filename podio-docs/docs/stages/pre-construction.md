@@ -35,7 +35,7 @@ That comes later (Construction stage).
 
 When you create a new project and set **Current Stage Status** to **"Pre-Construction Active"**, tasks for this stage automatically populate.
 
-📸 [Screenshot placeholder: New project with Current Stage Status = "Pre-Construction Active"]
+![New project with Current Stage Status = "Pre-Construction Active"](/img/projects/detail-page/12-current-stage-status.png)
 
 ---
 
@@ -47,7 +47,7 @@ When you create a new project and set **Current Stage Status** to **"Pre-Constru
 
 Pre-Con has the most tasks because there's SO much coordination work.
 
-📸 [Screenshot placeholder: Pre-Construction stage page showing 46 tasks in Task Overview]
+![Pre-Construction stage page showing 46 tasks in Task Overview](/img/tasks/detail-page/02-task-overview-field.png)
 
 ---
 
@@ -144,7 +144,7 @@ Gather everything you'll need for the project.
 
 **Why it matters:** You can't execute without the right info. Collect it all up front.
 
-📸 [Screenshot placeholder: Documents & Logs field on project with uploaded files]
+![Documents & Logs field on project with uploaded files](/img/projects/creating-editing/21-documents-upload.png)
 
 ---
 

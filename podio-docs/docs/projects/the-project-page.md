@@ -173,7 +173,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** No — it's calculated automatically.
 
-📸 [Screenshot placeholder: Budget fields showing Project Budget, Contract Value, and Variance]
+![Budget fields showing Project Budget, Contract Value, and Variance](/img/projects/detail-page/10-budget-fields.png)
 
 ---
 
@@ -192,7 +192,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 - Change to "Construction Active" when ready to start work → tasks auto-create
 - And so on through Demob and Retainage
 
-📸 [Screenshot placeholder: Current Stage Status dropdown showing all 5 stage options]
+![Current Stage Status dropdown showing all 5 stage options](/img/projects/detail-page/12-current-stage-status.png)
 
 ---
 
@@ -212,7 +212,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** No — it's calculated automatically.
 
-📸 [Screenshot placeholder: Overall Progress and Open Tasks Count fields]
+![Overall Progress and Open Tasks Count fields](/img/projects/detail-page/14-progress-tasks-count.png)
 
 ---
 
@@ -225,7 +225,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** No — these are created automatically when you create a project.
 
-📸 [Screenshot placeholder: Linked Stages showing all 5 stages with clickable links]
+![Linked Stages showing all 5 stages with clickable links](/img/projects/detail-page/13-linked-stages.png)
 
 ---
 
@@ -256,7 +256,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** Yes. Drag and drop files or click to upload. You can attach multiple files.
 
-📸 [Screenshot placeholder: Documents & Logs file upload area with example files attached]
+![Documents & Logs file upload area with example files attached](/img/projects/creating-editing/21-documents-upload.png)
 
 ---
 

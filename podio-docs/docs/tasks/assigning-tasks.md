@@ -30,7 +30,7 @@ That person will get a notification that they've been assigned a new task.
 5. **Optional but recommended:** Add a note in the **Notes** field explaining why you reassigned it
 6. Click **Save**
 
-📸 [Screenshot placeholder: Task edit view with Responsible field dropdown highlighted]
+![Task edit view with Responsible field dropdown highlighted](/img/tasks/detail-page/09-task-responsible-field.png)
 
 **What happens:**
 - The **new** person gets a notification they've been assigned the task
@@ -104,7 +104,7 @@ Some tasks in templates might reference **roles** (e.g., "Project Manager" or "F
 2. Change **Responsible** from the role to the actual person's name
 3. Save
 
-📸 [Screenshot placeholder: Task showing Responsible field with a person's name selected]
+![Task showing Responsible field with a person's name selected](/img/tasks/detail-page/09-task-responsible-field.png)
 
 ## Checking Who Has What
 

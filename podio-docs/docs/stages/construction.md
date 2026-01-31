@@ -32,7 +32,7 @@ When Mobilization is done (site is set up, crew is ready, equipment is on-site),
 
 Within 2-3 minutes, Podio creates tasks for Construction.
 
-📸 [Screenshot placeholder: Current Stage Status changed to "Construction Active" with tasks appearing]
+![Current Stage Status changed to "Construction Active" with tasks appearing](/img/projects/detail-page/12-current-stage-status.png)
 
 ---
 
@@ -42,7 +42,7 @@ Within 2-3 minutes, Podio creates tasks for Construction.
 
 Construction tasks vary widely depending on the scope. Some are recurring (daily reports), others are one-time (final inspection).
 
-📸 [Screenshot placeholder: Construction stage page showing task count and Task Overview]
+![Construction stage page showing task count and Task Overview](/img/tasks/detail-page/02-task-overview-field.png)
 
 ---
 
@@ -144,7 +144,7 @@ Know where you are vs. where you should be.
 
 **Why it matters:** If you're falling behind, you need to know NOW so you can course-correct.
 
-📸 [Screenshot placeholder: Progress tracking task or field]
+![Progress tracking task or field](/img/projects/detail-page/14-progress-tasks-count.png)
 
 ---
 
@@ -350,7 +350,7 @@ Document it in your daily report.
 - Issues or defects
 - Site conditions (weather, access, etc.)
 
-📸 [Screenshot placeholder: Task for taking daily progress photos]
+![Task for taking daily progress photos](/img/projects/detail-page/14-progress-tasks-count.png)
 
 **Tip:** Store photos in Podio (upload to Documents & Logs on the project).
 
@@ -373,7 +373,7 @@ Know how much time and money you're spending vs. budget.
 - Can you course-correct?
 - Do you need to escalate?
 
-📸 [Screenshot placeholder: Budget tracking field or task]
+![Budget tracking field or task](/img/projects/detail-page/10-budget-fields.png)
 
 ---
 

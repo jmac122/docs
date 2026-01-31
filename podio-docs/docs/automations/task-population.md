@@ -40,7 +40,7 @@ Go to **Projects** app → Click your project
 
 4. Click **Save**
 
-📸 [Screenshot placeholder: Current Stage Status dropdown showing stage options]
+![Current Stage Status dropdown showing stage options](/img/projects/detail-page/12-current-stage-status.png)
 
 ### Step 3: Wait 2-3 Minutes
 **This is critical:** The automation takes time to run.
@@ -65,7 +65,7 @@ Go to **Projects** app → Click your project
 3. Look at **Task Overview** - you should see tasks listed
 4. Check **Automation Status** - should say "3 - Linking Complete"
 
-📸 [Screenshot placeholder: Stage detail showing Task Overview populated with tasks]
+![Stage detail showing Task Overview populated with tasks](/img/tasks/detail-page/02-task-overview-field.png)
 
 If tasks didn't appear, see [troubleshooting-automations.md](troubleshooting-automations.md).
 

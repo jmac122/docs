@@ -26,7 +26,7 @@ You don't have to manually set up the structure for every job. The framework is 
 
 **Time saved:** ~5-10 minutes per project
 
-📸 [Screenshot placeholder: New project showing Linked Stages automatically populated]
+![New project showing Linked Stages automatically populated](/img/projects/detail-page/13-linked-stages.png)
 
 ---
 
@@ -50,7 +50,7 @@ You don't see 200+ tasks all at once on day 1. Tasks appear **only when you need
 
 **Wait time:** Allow 2-3 minutes for all tasks to populate after changing stage status.
 
-📸 [Screenshot placeholder: Stage showing Task Overview filling in with tasks after activation]
+![Stage showing Task Overview filling in with tasks after activation](/img/tasks/detail-page/02-task-overview-field.png)
 
 See [task-population.md](task-population.md) for more details.
 
@@ -97,7 +97,7 @@ Workflows keep moving forward without manual coordination. When you finish your 
 2. Automatically: "Receive permit approval" changes to In Progress
 3. Automatically: The PM gets notified it's ready for them
 
-📸 [Screenshot placeholder: Before/After of dependent task changing from Pending to In Progress]
+![Before/After of dependent task changing from Pending to In Progress](/img/projects/detail-page/14-progress-tasks-count.png)
 
 See [dependencies.md](../tasks/dependencies.md) for full details.
 
@@ -142,7 +142,7 @@ Weekly or daily tasks (safety meetings, daily reports, equipment checks) automat
 **Why this matters:**
 You always have real-time visibility into job progress without manual reporting or calculations.
 
-📸 [Screenshot placeholder: Project dashboard showing Overall Progress and Open Tasks Count]
+![Project dashboard showing Overall Progress and Open Tasks Count](/img/projects/detail-page/14-progress-tasks-count.png)
 
 ---
 

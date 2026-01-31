@@ -34,7 +34,7 @@ When Pre-Con is done (or close to done), you change **Current Stage Status** to 
 
 Within 2-3 minutes, Podio creates tasks for Mobilization.
 
-📸 [Screenshot placeholder: Current Stage Status changed to "Mobilization Active" with tasks appearing]
+![Current Stage Status changed to "Mobilization Active" with tasks appearing](/img/projects/detail-page/12-current-stage-status.png)
 
 ---
 
@@ -44,7 +44,7 @@ Within 2-3 minutes, Podio creates tasks for Mobilization.
 
 Mobilization typically has fewer tasks than Pre-Con because it's more straightforward — it's mostly execution (set up X, deliver Y, brief Z).
 
-📸 [Screenshot placeholder: Mobilization stage page showing task count and Task Overview]
+![Mobilization stage page showing task count and Task Overview](/img/tasks/detail-page/02-task-overview-field.png)
 
 ---
 

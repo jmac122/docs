@@ -23,7 +23,7 @@ This is the easiest way if you're already looking at the project.
 4. Select the contact from the dropdown list
 5. Click **Save** or just click elsewhere (Podio auto-saves relationship fields)
 
-📸 [Screenshot placeholder: Customer/GC field with dropdown showing contact list]
+![Customer/GC field with dropdown showing contact list](/img/projects/detail-page/11-customer-gc-field.png)
 
 **Can't find the contact?**
 - They might not exist in the Contacts app yet. **Add them first** (see [Adding Contacts](adding-contacts.md)), then come back and link.

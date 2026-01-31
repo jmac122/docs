@@ -138,7 +138,7 @@ Some tasks **can't start** until others finish. These are "Dependent" tasks.
 
 When a prerequisite task completes, dependent tasks automatically move to "In Progress."
 
-📸 [Screenshot placeholder: Task showing Dependencies field with linked prerequisite]
+![Task showing Dependencies field with linked prerequisite](/img/tasks/dependencies/01-tasks-dependency-column.png)
 
 ### How Tasks Get Created
 Most tasks are **auto-created** when a stage becomes active. The system copies from Task Templates and links everything correctly.

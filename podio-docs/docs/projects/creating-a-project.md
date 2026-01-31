@@ -33,7 +33,7 @@ When you win a new job, you need to create a project in Podio. This kicks off th
 
 These are the must-haves. Don't skip them or things will break.
 
-📸 [Screenshot placeholder: Blank project form with required fields highlighted]
+![Blank project form with required fields highlighted](/img/projects/creating-editing/16-required-fields.png)
 
 #### **Job #**
 Enter a unique number for this job. 
@@ -64,7 +64,7 @@ Give it a clear, descriptive name.
 
 Assign the people running this job:
 
-📸 [Screenshot placeholder: Team member dropdown fields]
+![Team member dropdown fields](/img/projects/creating-editing/17-team-member-dropdowns.png)
 
 - **Project Manager** (required)
 - **OC - Operations Coordinator** (if applicable)
@@ -122,7 +122,7 @@ If you have them, upload:
 
 Drag and drop files into the **Documents & Logs** field.
 
-📸 [Screenshot placeholder: Documents & Logs upload area with files being dragged in]
+![Documents & Logs upload area with files being dragged in](/img/projects/creating-editing/21-documents-upload.png)
 
 ---
 
@@ -133,7 +133,7 @@ Set **Current Stage Status** to:
 
 This is where every project starts. Don't set it to Mobilization or Construction yet — you need to do pre-con work first.
 
-📸 [Screenshot placeholder: Current Stage Status dropdown with "Pre-Construction Active" selected]
+![Current Stage Status dropdown with "Pre-Construction Active" selected](/img/projects/detail-page/12-current-stage-status.png)
 
 ---
 
@@ -141,7 +141,7 @@ This is where every project starts. Don't set it to Mobilization or Construction
 
 Click **Save** (or **Create**, depending on your Podio version).
 
-📸 [Screenshot placeholder: Save button at bottom of form]
+![Save button at bottom of form](/img/projects/creating-editing/20-save-button.png)
 
 ---
 
@@ -157,7 +157,7 @@ Within seconds, you'll see 5 linked stages appear:
 4. Demobilization
 5. Retainage
 
-📸 [Screenshot placeholder: Linked Stages field showing all 5 stages created]
+![Linked Stages field showing all 5 stages created](/img/projects/detail-page/13-linked-stages.png)
 
 ### ✅ Safety Record Gets Created
 A blank Safety & Compliance record gets created and linked to your project.

@@ -8,7 +8,7 @@
 
 That's it! ✅
 
-📸 [Screenshot placeholder: Task detail page with Status dropdown showing Complete option]
+![Task detail page with Status dropdown showing Complete option](/img/tasks/detail-page/01-task-detail-full-page.png)
 
 ## Why Completing Tasks Matters
 
