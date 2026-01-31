@@ -1,0 +1,23 @@
+{
+  "id": "reference/glossary",
+  "title": "Podio Glossary - PSS Terms & Abbreviations",
+  "description": "Project Roles & People",
+  "source": "@site/docs/reference/glossary.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/glossary",
+  "permalink": "/docs/reference/glossary",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Troubleshooting Automations",
+    "permalink": "/docs/automations/troubleshooting-automations"
+  },
+  "next": {
+    "title": "Podio Quick Reference - PSS Cheatsheet",
+    "permalink": "/docs/reference/cheatsheet"
+  }
+}

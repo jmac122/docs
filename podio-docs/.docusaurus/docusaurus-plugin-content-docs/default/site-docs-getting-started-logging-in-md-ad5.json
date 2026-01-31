@@ -1,0 +1,23 @@
+{
+  "id": "getting-started/logging-in",
+  "title": "Logging In to Podio",
+  "description": "First Time Login",
+  "source": "@site/docs/getting-started/logging-in.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/logging-in",
+  "permalink": "/docs/getting-started/logging-in",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Welcome to PSS Podio Documentation",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "The Podio Interface",
+    "permalink": "/docs/getting-started/the-interface"
+  }
+}

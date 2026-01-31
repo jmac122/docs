@@ -1,0 +1,23 @@
+{
+  "id": "projects/editing-project-info",
+  "title": "Editing Project Info",
+  "description": "Things change. Budget adjusts. Team members rotate. Addresses get corrected. Here's how to update project details after creation.",
+  "source": "@site/docs/projects/editing-project-info.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/editing-project-info",
+  "permalink": "/docs/projects/editing-project-info",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Creating a New Project",
+    "permalink": "/docs/projects/creating-a-project"
+  },
+  "next": {
+    "title": "How Stages Work",
+    "permalink": "/docs/stages/how-stages-work"
+  }
+}

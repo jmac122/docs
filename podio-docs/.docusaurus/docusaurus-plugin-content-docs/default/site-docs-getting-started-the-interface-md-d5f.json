@@ -1,0 +1,23 @@
+{
+  "id": "getting-started/the-interface",
+  "title": "The Podio Interface",
+  "description": "When you log in, here's what you'll see:",
+  "source": "@site/docs/getting-started/the-interface.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/the-interface",
+  "permalink": "/docs/getting-started/the-interface",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Logging In to Podio",
+    "permalink": "/docs/getting-started/logging-in"
+  },
+  "next": {
+    "title": "Searching and Filtering",
+    "permalink": "/docs/getting-started/searching-and-filtering"
+  }
+}

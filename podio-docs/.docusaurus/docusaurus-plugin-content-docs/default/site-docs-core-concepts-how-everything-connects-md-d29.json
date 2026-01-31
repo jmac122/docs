@@ -1,0 +1,23 @@
+{
+  "id": "core-concepts/how-everything-connects",
+  "title": "How Everything Connects",
+  "description": "This doc explains the relationships between PSS Podio apps—how they link together and why it matters.",
+  "source": "@site/docs/core-concepts/how-everything-connects.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/how-everything-connects",
+  "permalink": "/docs/core-concepts/how-everything-connects",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Views and Filters",
+    "permalink": "/docs/core-concepts/views-and-filters"
+  },
+  "next": {
+    "title": "Finding Projects",
+    "permalink": "/docs/projects/finding-projects"
+  }
+}

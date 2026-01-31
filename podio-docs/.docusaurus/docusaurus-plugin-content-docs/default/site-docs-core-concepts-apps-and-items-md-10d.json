@@ -1,0 +1,23 @@
+{
+  "id": "core-concepts/apps-and-items",
+  "title": "Apps and Items in Podio",
+  "description": "What is an App?",
+  "source": "@site/docs/core-concepts/apps-and-items.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/apps-and-items",
+  "permalink": "/docs/core-concepts/apps-and-items",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Our Apps Explained",
+    "permalink": "/docs/core-concepts/our-apps-explained"
+  },
+  "next": {
+    "title": "Fields and Data Types",
+    "permalink": "/docs/core-concepts/fields-and-data"
+  }
+}

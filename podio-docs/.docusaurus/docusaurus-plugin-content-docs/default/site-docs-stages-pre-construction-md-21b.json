@@ -1,0 +1,23 @@
+{
+  "id": "stages/pre-construction",
+  "title": "Pre-Construction Stage",
+  "description": "This is where you win or lose the project.",
+  "source": "@site/docs/stages/pre-construction.md",
+  "sourceDirName": "stages",
+  "slug": "/stages/pre-construction",
+  "permalink": "/docs/stages/pre-construction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "How Stages Work",
+    "permalink": "/docs/stages/how-stages-work"
+  },
+  "next": {
+    "title": "Mobilization Stage",
+    "permalink": "/docs/stages/mobilization"
+  }
+}

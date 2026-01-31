@@ -1,0 +1,23 @@
+{
+  "id": "automations/what-happens-automatically",
+  "title": "What Happens Automatically in Podio",
+  "description": "Podio doesn't just store your project information - it actively helps manage your workflow with automations (powered by GlobiFlow).",
+  "source": "@site/docs/automations/what-happens-automatically.md",
+  "sourceDirName": "automations",
+  "slug": "/automations/what-happens-automatically",
+  "permalink": "/docs/automations/what-happens-automatically",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Creating and Tracking Change Order Requests in Podio",
+    "permalink": "/docs/submittals-rfis-change-orders/change-orders"
+  },
+  "next": {
+    "title": "How Just-in-Time Task Population Works",
+    "permalink": "/docs/automations/task-population"
+  }
+}

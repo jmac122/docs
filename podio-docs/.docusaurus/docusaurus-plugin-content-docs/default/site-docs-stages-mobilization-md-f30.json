@@ -1,0 +1,23 @@
+{
+  "id": "stages/mobilization",
+  "title": "Mobilization Stage",
+  "description": "Getting the job site ready to work.",
+  "source": "@site/docs/stages/mobilization.md",
+  "sourceDirName": "stages",
+  "slug": "/stages/mobilization",
+  "permalink": "/docs/stages/mobilization",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Pre-Construction Stage",
+    "permalink": "/docs/stages/pre-construction"
+  },
+  "next": {
+    "title": "Construction Stage",
+    "permalink": "/docs/stages/construction"
+  }
+}

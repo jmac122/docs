@@ -1,0 +1,19 @@
+{
+  "id": "intro",
+  "title": "Welcome to PSS Podio Documentation",
+  "description": "This documentation will help you learn how to use Podio at Precision Site Services.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "next": {
+    "title": "Logging In to Podio",
+    "permalink": "/docs/getting-started/logging-in"
+  }
+}

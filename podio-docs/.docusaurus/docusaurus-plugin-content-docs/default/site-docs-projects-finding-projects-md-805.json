@@ -1,0 +1,23 @@
+{
+  "id": "projects/finding-projects",
+  "title": "Finding Projects",
+  "description": "You've got dozens (or hundreds) of projects in Podio. Here's how to find the one you need fast.",
+  "source": "@site/docs/projects/finding-projects.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/finding-projects",
+  "permalink": "/docs/projects/finding-projects",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "How Everything Connects",
+    "permalink": "/docs/core-concepts/how-everything-connects"
+  },
+  "next": {
+    "title": "The Project Page: Field-by-Field Guide",
+    "permalink": "/docs/projects/the-project-page"
+  }
+}

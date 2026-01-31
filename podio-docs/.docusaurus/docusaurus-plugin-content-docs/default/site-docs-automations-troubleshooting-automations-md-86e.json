@@ -1,0 +1,23 @@
+{
+  "id": "automations/troubleshooting-automations",
+  "title": "Troubleshooting Automations",
+  "description": "Things usually work smoothly, but sometimes automations don't fire as expected. Here's how to diagnose and fix common issues.",
+  "source": "@site/docs/automations/troubleshooting-automations.md",
+  "sourceDirName": "automations",
+  "slug": "/automations/troubleshooting-automations",
+  "permalink": "/docs/automations/troubleshooting-automations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "How Just-in-Time Task Population Works",
+    "permalink": "/docs/automations/task-population"
+  },
+  "next": {
+    "title": "Podio Glossary - PSS Terms & Abbreviations",
+    "permalink": "/docs/reference/glossary"
+  }
+}

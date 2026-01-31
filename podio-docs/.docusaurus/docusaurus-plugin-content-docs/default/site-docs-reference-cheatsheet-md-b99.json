@@ -1,0 +1,23 @@
+{
+  "id": "reference/cheatsheet",
+  "title": "Podio Quick Reference - PSS Cheatsheet",
+  "description": "Print this page and keep it handy!",
+  "source": "@site/docs/reference/cheatsheet.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/cheatsheet",
+  "permalink": "/docs/reference/cheatsheet",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Podio Glossary - PSS Terms & Abbreviations",
+    "permalink": "/docs/reference/glossary"
+  },
+  "next": {
+    "title": "Podio FAQ - Common Questions",
+    "permalink": "/docs/reference/faq"
+  }
+}

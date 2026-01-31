@@ -1,0 +1,23 @@
+{
+  "id": "projects/the-project-page",
+  "title": "The Project Page: Field-by-Field Guide",
+  "description": "Every project in Podio is your central hub for that job. Think of it like the project's brain — everything connects back to it.",
+  "source": "@site/docs/projects/the-project-page.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/the-project-page",
+  "permalink": "/docs/projects/the-project-page",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Finding Projects",
+    "permalink": "/docs/projects/finding-projects"
+  },
+  "next": {
+    "title": "Creating a New Project",
+    "permalink": "/docs/projects/creating-a-project"
+  }
+}

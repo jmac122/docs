@@ -1,0 +1,23 @@
+{
+  "id": "contacts/adding-contacts",
+  "title": "Adding GC and Customer Contacts to Podio",
+  "description": "Why Add Contacts?",
+  "source": "@site/docs/contacts/adding-contacts.md",
+  "sourceDirName": "contacts",
+  "slug": "/contacts/adding-contacts",
+  "permalink": "/docs/contacts/adding-contacts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "How to Check Task Progress on a Project",
+    "permalink": "/docs/tasks/checking-job-status"
+  },
+  "next": {
+    "title": "Linking Contacts to Projects in Podio",
+    "permalink": "/docs/contacts/linking-to-projects"
+  }
+}

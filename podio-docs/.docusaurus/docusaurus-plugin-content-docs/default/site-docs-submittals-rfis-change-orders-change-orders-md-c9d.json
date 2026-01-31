@@ -1,0 +1,23 @@
+{
+  "id": "submittals-rfis-change-orders/change-orders",
+  "title": "Creating and Tracking Change Order Requests in Podio",
+  "description": "What Is a Change Order?",
+  "source": "@site/docs/submittals-rfis-change-orders/change-orders.md",
+  "sourceDirName": "submittals-rfis-change-orders",
+  "slug": "/submittals-rfis-change-orders/change-orders",
+  "permalink": "/docs/submittals-rfis-change-orders/change-orders",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Managing RFIs (Requests for Information) in Podio",
+    "permalink": "/docs/submittals-rfis-change-orders/rfis"
+  },
+  "next": {
+    "title": "What Happens Automatically in Podio",
+    "permalink": "/docs/automations/what-happens-automatically"
+  }
+}

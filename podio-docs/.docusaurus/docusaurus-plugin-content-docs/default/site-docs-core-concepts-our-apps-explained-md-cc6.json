@@ -1,0 +1,23 @@
+{
+  "id": "core-concepts/our-apps-explained",
+  "title": "Our Apps Explained",
+  "description": "This doc walks through each PSS Podio app—what it does, what's in it, and how you'll use it.",
+  "source": "@site/docs/core-concepts/our-apps-explained.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/our-apps-explained",
+  "permalink": "/docs/core-concepts/our-apps-explained",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Searching and Filtering",
+    "permalink": "/docs/getting-started/searching-and-filtering"
+  },
+  "next": {
+    "title": "Apps and Items in Podio",
+    "permalink": "/docs/core-concepts/apps-and-items"
+  }
+}

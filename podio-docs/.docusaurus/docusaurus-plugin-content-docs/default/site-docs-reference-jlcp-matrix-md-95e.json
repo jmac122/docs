@@ -1,0 +1,23 @@
+{
+  "id": "reference/jlcp-matrix",
+  "title": "Job Life Cycle Process (JLCP) Task Matrix",
+  "description": "Source: JLCP Main Tasks v121225.xlsx + JLCP Subtasks.csv",
+  "source": "@site/docs/reference/jlcp-matrix.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/jlcp-matrix",
+  "permalink": "/docs/reference/jlcp-matrix",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Podio FAQ - Common Questions",
+    "permalink": "/docs/reference/faq"
+  },
+  "next": {
+    "title": "JLCP Dependency Flowcharts",
+    "permalink": "/docs/reference/jlcp-dependencies"
+  }
+}

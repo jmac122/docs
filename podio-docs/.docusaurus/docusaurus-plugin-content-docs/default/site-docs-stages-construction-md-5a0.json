@@ -1,0 +1,23 @@
+{
+  "id": "stages/construction",
+  "title": "Construction Stage",
+  "description": "This is where the work happens.",
+  "source": "@site/docs/stages/construction.md",
+  "sourceDirName": "stages",
+  "slug": "/stages/construction",
+  "permalink": "/docs/stages/construction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Mobilization Stage",
+    "permalink": "/docs/stages/mobilization"
+  },
+  "next": {
+    "title": "Finding Your Tasks in Podio",
+    "permalink": "/docs/tasks/finding-your-tasks"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "reference/jlcp-dependencies",
+  "title": "JLCP Dependency Flowcharts",
+  "description": "Visual diagrams showing how tasks flow and depend on each other.",
+  "source": "@site/docs/reference/jlcp-dependencies.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/jlcp-dependencies",
+  "permalink": "/docs/reference/jlcp-dependencies",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Job Life Cycle Process (JLCP) Task Matrix",
+    "permalink": "/docs/reference/jlcp-matrix"
+  }
+}

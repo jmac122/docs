@@ -1,0 +1,23 @@
+{
+  "id": "core-concepts/views-and-filters",
+  "title": "Views and Filters",
+  "description": "What is a View?",
+  "source": "@site/docs/core-concepts/views-and-filters.md",
+  "sourceDirName": "core-concepts",
+  "slug": "/core-concepts/views-and-filters",
+  "permalink": "/docs/core-concepts/views-and-filters",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "podioSidebar",
+  "previous": {
+    "title": "Fields and Data Types",
+    "permalink": "/docs/core-concepts/fields-and-data"
+  },
+  "next": {
+    "title": "How Everything Connects",
+    "permalink": "/docs/core-concepts/how-everything-connects"
+  }
+}
