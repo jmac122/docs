@@ -170,9 +170,6 @@ Most people filter by stage daily:
 - Foremen: Filter for "Construction Active" to see active job sites
 - Admins: Filter for "Retainage Active" to handle closeout
 
-### Bookmark Frequently Used Filters
-[NEEDS VERIFICATION: Can you bookmark filtered views in Podio?]
-
 ---
 
 ## Quick Reference: Common Searches
@@ -185,7 +182,7 @@ Most people filter by stage daily:
 | All jobs for ABC Construction (GC) | Filter: Company = "ABC Construction" |
 | Specific job by number | Search: Type Job # in search box |
 | Jobs entered this month | Sort: Date Entered (newest first) |
-| Jobs with open tasks | [NEEDS VERIFICATION: Can you filter by Open Tasks Count?] |
+| Jobs with open tasks | Sort: Open Tasks Count |
 
 ---
 
@@ -197,15 +194,10 @@ Most people filter by stage daily:
 1. Are filters applied that might be hiding it? Clear all filters and try again.
 2. Did you search the exact Job # or Name? Try searching just part of the name.
 3. Was the project actually created? Check with whoever was supposed to create it.
-4. Do you have permission to see it? [NEEDS VERIFICATION: Are there project-level permissions in Podio?]
 
 ### "The list is too long to scroll through"
 
 Use filters! Don't try to scroll through hundreds of projects. Filter by stage, division, or PM to narrow it down.
-
-### "I need to find archived projects"
-
-[NEEDS VERIFICATION: How are completed projects handled? Are they archived? Deleted? Marked with a specific status?]
 
 ---
 
