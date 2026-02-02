@@ -194,6 +194,6 @@ See [troubleshooting-automations.md](troubleshooting-automations.md)
 ---
 
 **Related:**
-- [task-population.md](task-population.md) - Deep dive on just-in-time task creation
+- [task-population.md](task-population.md) - Deep dive on automatic task creation
 - [troubleshooting-automations.md](troubleshooting-automations.md) - What to do when automations fail
 - [dependencies.md](../tasks/dependencies.md) - How task dependencies work

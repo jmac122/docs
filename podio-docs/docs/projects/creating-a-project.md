@@ -166,12 +166,10 @@ Because you set the stage to "Pre-Construction Active", tasks for that stage sta
 
 **Wait 2-3 minutes.** Then refresh the project page.
 
-:::note Screenshot needed
-Pre-Construction stage showing tasks being created
-:::
+![Pre-Construction stage showing linked project and tasks](/img/stages/pre-construction-tasks-created-annotated.png)
 
 ### ✅ You'll Get a Notification
-[NEEDS VERIFICATION: Does Podio notify the PM or creator when stages/tasks are created?]
+The Project Manager listed on the Project will get a notification when a new project is created.
 
 ---
 
@@ -193,15 +191,15 @@ Go back to the project page and make sure:
 
 ### ❌ Wrong Division Selected
 **Problem:** You picked "Drywall" but this is a concrete job.  
-**Fix:** Change the Division field BEFORE tasks finish creating. If tasks already exist, you may need to delete the project and start over. [NEEDS VERIFICATION: Can you change division mid-project?]
+**Fix:** You cannot change the division mid-project — it will break everything. You must delete the project and re-create it with the correct division.
 
 ### ❌ Forgot to Set Stage to Pre-Construction Active
 **Problem:** You left Current Stage Status blank.  
-**Fix:** Edit the project and set it to "Pre-Construction Active". Tasks should start creating.
+**Fix:** Edit the project and set it to "Pre-Construction Active". Note: All tasks for every stage are created automatically when the project is created (not just-in-time per stage), but setting the active stage helps with organization and visibility.
 
 ### ❌ Duplicate Job #
 **Problem:** You used a Job # that already exists.  
-**Fix:** Pick a new unique number. [NEEDS VERIFICATION: Does Podio block duplicate Job #s?]
+**Fix:** Podio does not block duplicate Job #s. You can edit the Job # to the correct one — it won't break anything. However, you will need to manually rename the Google Drive folder, as that does not update automatically.
 
 ### ❌ No PM Assigned
 **Problem:** Project has no owner.  

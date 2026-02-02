@@ -41,7 +41,7 @@ Every task in Podio has a field called **Ind or Dep** with two options:
 Here's the magic of the system:
 
 ### Step 1: Dependent Task is Created
-- When a stage goes active, tasks are created
+- When a project is created, all tasks for all stages are created automatically
 - Dependent tasks start with **Status = Pending** (red)
 - The **Dependencies** field shows what task(s) it's waiting on
 

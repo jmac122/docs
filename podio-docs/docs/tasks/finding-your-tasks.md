@@ -48,7 +48,7 @@ If you want to see all tasks for a specific job:
 
 On each Project page, you'll see **Open Tasks Count**. This is the total number of incomplete tasks across all stages.
 
-If this number is high, it means there's lots to do. If it's zero, you're either done or tasks haven't been created yet for the active stage.
+If this number is high, it means there's lots to do. If it's zero, you're either done or the project was just created and tasks are still populating.
 
 ## Dependent vs Independent Tasks
 

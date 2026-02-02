@@ -75,7 +75,7 @@ Final billing and closeout: waiting for final payment, submitting closeout docum
 Each stage has its own set of tasks that auto-populate when you activate that stage.
 
 **Current Stage Status**
-The field in the Project that shows which stage is active right now (e.g., "Construction Active"). When you change this, Podio creates tasks for that stage.
+The field in the Project that shows which stage is active right now (e.g., "Construction Active"). This helps with organization and visibility, but all tasks for all stages are created when the project is first created.
 
 ---
 

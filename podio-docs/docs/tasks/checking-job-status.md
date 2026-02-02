@@ -19,7 +19,7 @@ Go to **Projects** app → Click the job you want to check
 **Open Tasks Count**
 - How many incomplete tasks are left
 - High number = lots of work remaining
-- Zero = either done or no tasks created yet for active stage
+- Zero = either done or tasks are still populating
 
 **Current Stage Status**
 - Shows which phase is active (e.g., "Construction Active")
@@ -50,7 +50,7 @@ Each stage has its own **Tasks Complete %**:
 - **50%** = Halfway through the stage
 - **100%** = Stage complete, ready to move to next
 
-**Important:** Tasks don't appear for a stage until that stage becomes active. So if you're in Pre-Construction, you won't see Construction tasks yet. They get created automatically when you advance to that stage (see [task-population.md](../automations/task-population.md)).
+**Important:** All tasks for all stages are created when the project is created. You can filter by stage to see only the tasks relevant to your current phase.
 
 ## Task Status Breakdown
 

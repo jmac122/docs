@@ -141,7 +141,7 @@ When a prerequisite task completes, dependent tasks automatically move to "In Pr
 ![Task showing Dependencies field with linked prerequisite](/img/tasks/dependencies/01-tasks-dependency-column.png)
 
 ### How Tasks Get Created
-Most tasks are **auto-created** when a stage becomes active. The system copies from Task Templates and links everything correctly.
+Most tasks are **auto-created** when the project is created. The system copies from Task Templates and links everything correctly — all tasks for all stages are generated at once.
 
 Some tasks you'll create manually—ad-hoc work that wasn't templated.
 
@@ -234,7 +234,7 @@ The **master list** of tasks that automations copy from. You rarely open this di
 | Linked Subtasks | Subtask templates that belong to this |
 
 ### How Templates Work
-When a stage becomes "Active," GlobiFlow automations:
+When a project is created, GlobiFlow automations:
 1. Find templates matching that stage + division
 2. Create actual tasks from each template
 3. Link them to the correct stage and project

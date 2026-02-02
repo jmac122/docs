@@ -40,7 +40,7 @@ Think of them like folders — each stage holds its own tasks, dates, and notes.
 
 ## How Tasks Work with Stages
 
-**Tasks are created just-in-time** when you activate a stage.
+**All tasks are created automatically** when the project is created — not when each stage becomes active.
 
 Here's the magic:
 1. You set **Current Stage Status** to "[Stage Name] Active"
@@ -48,7 +48,7 @@ Here's the magic:
 3. Podio creates all the tasks for that stage automatically
 4. Tasks appear in that stage's **Task Overview**
 
-**Why just-in-time?** If Podio created ALL tasks for ALL stages up front, you'd have hundreds of tasks cluttering your project before you even started. This way, you only see tasks for the stage you're actually in.
+**Managing the task volume:** Since all tasks are created at once, use filters to view only tasks for your current stage. This keeps things focused without overwhelming you.
 
 ![Current Stage Status dropdown with "Pre-Construction Active" selected, and tasks appearing in Pre-Construction stage](/img/projects/detail-page/12-current-stage-status.png)
 

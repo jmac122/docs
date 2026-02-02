@@ -407,5 +407,5 @@ Contact your GlobiFlow admin or PM if:
 
 **Related:**
 - [what-happens-automatically.md](what-happens-automatically.md) - Overview of all automations
-- [task-population.md](task-population.md) - How just-in-time task creation works
+- [task-population.md](task-population.md) - How automatic task creation works
 - [dependencies.md](../tasks/dependencies.md) - How dependencies work

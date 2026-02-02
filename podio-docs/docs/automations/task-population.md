@@ -6,7 +6,7 @@ Imagine opening a brand new project and seeing **200+ tasks** all at once - Pre-
 
 **Overwhelming.** And most of those tasks aren't relevant yet.
 
-Instead, PSS Podio uses **just-in-time task population**: tasks are created **only when you activate a stage**. You see what you need, when you need it.
+PSS Podio uses **automatic task population**: all tasks for all stages are created **when you create a project**. This means you'll have all tasks ready from the start, organized by stage.
 
 ---
 
@@ -253,7 +253,7 @@ Tasks appear in Task Overview ✅
 
 ## Key Takeaways
 
-✅ **Tasks are created just-in-time** when you activate a stage, not all at once
+✅ **All tasks are created automatically** when the project is created
 ✅ **Wait 2-3 minutes** for task population to complete
 ✅ **Check Automation Status** to verify it worked ("3 - Linking Complete")
 ✅ **Fill out PM/OC/FOCS/Foreman fields** before activating stages so tasks are assigned correctly

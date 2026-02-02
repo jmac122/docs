@@ -2,7 +2,7 @@
 
 ## When to Create Tasks Manually
 
-**Most tasks are created automatically** when you activate a new stage (see [task-population.md](../automations/task-population.md)).
+**Most tasks are created automatically** when the project is created (see [task-population.md](../automations/task-population.md)). All tasks for all stages are generated at once.
 
 You should manually create a task when:
 - Something unique comes up that's not in the standard templates
