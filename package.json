@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd podio-docs && npm ci && npm run build && cd .. && mkdir -p dist && cp landing/index.html dist/ && mv podio-docs/build dist/podio"
+    "build": "cd podio-docs && npm ci && npm run build && cd .. && mkdir -p dist && cp landing/index.html dist/ && mv podio-docs/build dist/podio && cp _redirects dist/"
   }
 }
