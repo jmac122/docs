@@ -84,7 +84,7 @@ Need to see all jobs assigned to a specific PM or foreman?
 
 ### Filter by User
 
-![Filter sidebar showing user fields](/img/projects/list-views/02-filter-sidebar-stages.png)
+![Filter sidebar showing View by PM, Project Accountant, and OC](/img/projects/list-views/filter-by-team-member-annotated.png)
 
 1. In the Projects app, click **Filters**
 2. Click **Project Manager**, **Foreman**, **OC**, or **FOCS**
