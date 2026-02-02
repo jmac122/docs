@@ -241,9 +241,7 @@ When a stage becomes "Active," GlobiFlow automations:
 4. Create any subtasks
 5. Set up dependencies between tasks
 
-:::note Screenshot needed
-A Task Template detail page screenshot showing Division, Stage, and task info fields is needed here. Check the Task Templates app for a good example.
-:::
+![Task Template detail page showing key fields like Responsible Role, Type, Notes, and Division](/img/task-templates/task-template-detail-annotated.png)
 
 ---
 
