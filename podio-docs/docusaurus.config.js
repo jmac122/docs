@@ -3,6 +3,10 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   title: 'PSS Podio Documentation',
   tagline: 'Complete guide to using Podio at Precision Site Services',
   favicon: 'img/favicon.ico',

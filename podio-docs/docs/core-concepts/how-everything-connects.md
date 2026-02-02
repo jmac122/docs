@@ -13,17 +13,21 @@ Think of your Podio workspace like a wheel:
 
 Every item eventually traces back to a project. This keeps information organized and findable.
 
-```
-                    Contacts
-                       │
-                       ▼
-    Safety ◄─────► PROJECTS ◄─────► Stages
-                       │               │
-                       │               ▼
-                       └──────────► Tasks
-                                      │
-                                      ▼
-                                  Subtasks (Tasks linked to Tasks)
+```mermaid
+flowchart TB
+    Contacts --> PROJECTS
+    Safety <--> PROJECTS
+    PROJECTS <--> Stages
+    PROJECTS --> Tasks
+    Stages --> Tasks
+    Tasks --> Subtasks
+    
+    style PROJECTS fill:#0d9488,stroke:#0f766e,color:#fff,stroke-width:3px
+    style Contacts fill:#f3f4f6,stroke:#9ca3af
+    style Safety fill:#f3f4f6,stroke:#9ca3af
+    style Stages fill:#f3f4f6,stroke:#9ca3af
+    style Tasks fill:#f3f4f6,stroke:#9ca3af
+    style Subtasks fill:#f3f4f6,stroke:#9ca3af
 ```
 
 ---
