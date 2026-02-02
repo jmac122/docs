@@ -43,7 +43,7 @@ These fields can be updated without breaking anything:
 
 - **Job Name** - Rename the project
 - **Location/Address** - Fix typos or update address
-- **Company** - Change the GC if needed
+- **Company** - Change the entity if needed
 - **GC Contacts** - Add/remove contact info
 - **Customer / GC** - Link or unlink contacts
 - **Scopes** - Add or remove scope types
@@ -56,9 +56,11 @@ These fields can be updated without breaking anything:
 - **LOI/Contract Date** - Adjust dates
 - **Documents & Logs** - Add or remove files
 
-:::note Screenshot needed
-Common editable fields highlighted
-:::
+![Project info fields - Job Name, Date Entered, LOI/Contract Date, Company, Location, Scopes, Customer/GC](/img/projects/fields/project-info-fields-annotated.png)
+
+![Contract Value and Project Budget fields](/img/projects/fields/contract-budget-fields-annotated.png)
+
+![Team member fields - Project Manager, Asst PM, OC, FOCS, Foreman, Accountant](/img/projects/fields/editable-fields-annotated.png)
 
 ---
 
