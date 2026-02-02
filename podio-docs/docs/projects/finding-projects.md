@@ -134,9 +134,7 @@ You can stack filters to narrow results:
 
 Result: Only active construction concrete jobs managed by John.
 
-:::note Screenshot needed
-Multiple filters applied showing narrowed results
-:::
+![Applied Filters panel showing Company and Project Manager filters](/img/projects/list-views/multiple-filters-annotated.png)
 
 **Tip:** Clear filters by clicking the X next to each one, or click "Clear all filters" at the top.
 
