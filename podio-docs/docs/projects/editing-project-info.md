@@ -95,9 +95,9 @@ These fields CAN be edited, but be careful:
 
 **Better option:** If you're deep into the project, leave it as-is or create a new project with the correct division.
 
-:::note Screenshot needed
-Division field with warning icon about not changing after tasks created
-:::
+⚠️ **Do not change Division after the project is created — it will break task assignments.**
+
+![Division field showing Concrete and Drywall options](/img/projects/fields/division-caution-annotated.png)
 
 ---
 
@@ -152,14 +152,14 @@ After editing:
 3. Select the new PM from the dropdown
 4. Save
 
+**How to change it:** Click the **Add/Remove** button next to the Project Manager field.
+
 **What happens:**
 - Tasks assigned to the old PM stay assigned to them
 - New PM gets access to the project
-- [NEEDS VERIFICATION: Do existing tasks auto-reassign to new PM, or do you have to manually reassign them?]
+- Existing tasks do NOT auto-reassign — you'll need to manually reassign them if needed
 
-:::note Screenshot needed
-Project Manager dropdown with new PM being selected
-:::
+![Project Manager field with Add/Remove button highlighted](/img/projects/fields/pm-add-remove-annotated.png)
 
 ---
 
