@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-tasks/dependencies" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Understanding Task Dependencies | PSS Podio Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://jmac122.github.io/docs/tasks/dependencies"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Understanding Task Dependencies | PSS Podio Documentation"><meta data-rh="true" name="description" content="What Are Dependencies?"><meta data-rh="true" property="og:description" content="What Are Dependencies?"><link data-rh="true" rel="icon" href="/docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://jmac122.github.io/docs/tasks/dependencies"><link data-rh="true" rel="alternate" href="https://jmac122.github.io/docs/tasks/dependencies" hreflang="en"><link data-rh="true" rel="alternate" href="https://jmac122.github.io/docs/tasks/dependencies" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Understanding Task Dependencies","item":"https://jmac122.github.io/docs/tasks/dependencies"}]}</script><link rel="stylesheet" href="/docs/assets/css/styles.d2365209.css">
+<script src="/docs/assets/js/runtime~main.1dacca23.js" defer="defer"></script>
+<script src="/docs/assets/js/main.f30d4b81.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/docs/img/favicon.ico"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/docs/intro"><div class="navbar__logo"><img src="/docs/img/favicon.ico" alt="PSS Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/docs/img/favicon.ico" alt="PSS Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">PSS Podio Docs</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Documentation</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/jmac122/docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro"><span title="Welcome to PSS Podio Documentation" class="linkLabel_WmDU">Welcome to PSS Podio Documentation</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/getting-started/logging-in"><span title="Getting Started" class="categoryLinkLabel_W154">Getting Started</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/core-concepts/our-apps-explained"><span title="Core Concepts" class="categoryLinkLabel_W154">Core Concepts</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/projects/finding-projects"><span title="Projects" class="categoryLinkLabel_W154">Projects</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/stages/how-stages-work"><span title="Stages" class="categoryLinkLabel_W154">Stages</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/tasks/finding-your-tasks"><span title="Tasks" class="categoryLinkLabel_W154">Tasks</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tasks/finding-your-tasks"><span title="Finding Your Tasks in Podio" class="linkLabel_WmDU">Finding Your Tasks in Podio</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tasks/creating-tasks"><span title="How to Manually Create Tasks" class="linkLabel_WmDU">How to Manually Create Tasks</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tasks/assigning-tasks"><span title="How to Assign and Reassign Tasks" class="linkLabel_WmDU">How to Assign and Reassign Tasks</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tasks/completing-tasks"><span title="How to Mark Tasks Complete" class="linkLabel_WmDU">How to Mark Tasks Complete</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/tasks/dependencies"><span title="Understanding Task Dependencies" class="linkLabel_WmDU">Understanding Task Dependencies</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/tasks/checking-job-status"><span title="How to Check Task Progress on a Project" class="linkLabel_WmDU">How to Check Task Progress on a Project</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/contacts/adding-contacts"><span title="Contacts" class="categoryLinkLabel_W154">Contacts</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/submittals-rfis-change-orders/submittals"><span title="Submittals, RFIs &amp; Change Orders" class="categoryLinkLabel_W154">Submittals, RFIs &amp; Change Orders</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/automations/what-happens-automatically"><span title="Automations" class="categoryLinkLabel_W154">Automations</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/reference/glossary"><span title="Reference" class="categoryLinkLabel_W154">Reference</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><span class="breadcrumbs__link">Tasks</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Understanding Task Dependencies</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Understanding Task Dependencies</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-are-dependencies">What Are Dependencies?<a href="#what-are-dependencies" class="hash-link" aria-label="Direct link to What Are Dependencies?" title="Direct link to What Are Dependencies?" translate="no">​</a></h2>
+<p>A <strong>dependency</strong> means one task can&#x27;t start until another task finishes.</p>
+<p><strong>Real-world example:</strong></p>
+<ul>
+<li class="">You can&#x27;t &quot;Install formwork&quot; until &quot;Site grading complete&quot; is done</li>
+<li class="">You can&#x27;t &quot;Receive SSSP approval&quot; until &quot;Submit SSSP to safety director&quot; is done</li>
+</ul>
+<p>It&#x27;s like a chain: one link has to connect before the next one can move.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="independent-vs-dependent-tasks">Independent vs Dependent Tasks<a href="#independent-vs-dependent-tasks" class="hash-link" aria-label="Direct link to Independent vs Dependent Tasks" title="Direct link to Independent vs Dependent Tasks" translate="no">​</a></h2>
+<p>Every task in Podio has a field called <strong>Ind or Dep</strong> with two options:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="independent-tasks">Independent Tasks<a href="#independent-tasks" class="hash-link" aria-label="Direct link to Independent Tasks" title="Direct link to Independent Tasks" translate="no">​</a></h3>
+<ul>
+<li class="">Can be started <strong>right away</strong></li>
+<li class="">Don&#x27;t wait for anything else</li>
+<li class="">Show <strong>Status = In Progress</strong> by default when created (or Pending if not yet assigned/started)</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li class="">&quot;Project Manager Kickoff Meeting&quot;</li>
+<li class="">&quot;Order materials for formwork&quot;</li>
+<li class="">&quot;Review contract documents&quot;</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="dependent-tasks">Dependent Tasks<a href="#dependent-tasks" class="hash-link" aria-label="Direct link to Dependent Tasks" title="Direct link to Dependent Tasks" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Wait</strong> for another task (or tasks) to be completed first</li>
+<li class="">Show <strong>Status = Pending</strong> until their prerequisite is done</li>
+<li class="">Have a <strong>Dependencies</strong> field that shows what they&#x27;re waiting on</li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li class="">&quot;Receive SSSP Approval&quot; (waits for &quot;Submit SSSP to Safety Director&quot;)</li>
+<li class="">&quot;Install forms&quot; (waits for &quot;Complete site grading&quot;)</li>
+<li class="">&quot;Final inspection&quot; (waits for &quot;Punch list complete&quot;)</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Task showing Ind or Dep = Dependent and Dependencies field listing prerequisite task" src="/docs/assets/images/06-task-ind-or-dep-field-da502cef4d6bf41652317e1033a952eb.png" width="1400" height="900" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-dependencies-work-automatic">How Dependencies Work (Automatic!)<a href="#how-dependencies-work-automatic" class="hash-link" aria-label="Direct link to How Dependencies Work (Automatic!)" title="Direct link to How Dependencies Work (Automatic!)" translate="no">​</a></h2>
+<p>Here&#x27;s the magic of the system:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-1-dependent-task-is-created">Step 1: Dependent Task is Created<a href="#step-1-dependent-task-is-created" class="hash-link" aria-label="Direct link to Step 1: Dependent Task is Created" title="Direct link to Step 1: Dependent Task is Created" translate="no">​</a></h3>
+<ul>
+<li class="">When a stage goes active, tasks are created</li>
+<li class="">Dependent tasks start with <strong>Status = Pending</strong> (red)</li>
+<li class="">The <strong>Dependencies</strong> field shows what task(s) it&#x27;s waiting on</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-2-someone-completes-the-prerequisite">Step 2: Someone Completes the Prerequisite<a href="#step-2-someone-completes-the-prerequisite" class="hash-link" aria-label="Direct link to Step 2: Someone Completes the Prerequisite" title="Direct link to Step 2: Someone Completes the Prerequisite" translate="no">​</a></h3>
+<ul>
+<li class="">The person responsible completes the prerequisite task</li>
+<li class="">Changes it to <strong>Status = Complete</strong> (green)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-3-automation-kicks-in">Step 3: Automation Kicks In<a href="#step-3-automation-kicks-in" class="hash-link" aria-label="Direct link to Step 3: Automation Kicks In" title="Direct link to Step 3: Automation Kicks In" translate="no">​</a></h3>
+<p><strong>Within a few seconds</strong>, the system automatically:</p>
+<ol>
+<li class="">Finds all tasks that were waiting on the completed task</li>
+<li class="">Changes their <strong>Status</strong> from Pending to <strong>In Progress</strong> (yellow)</li>
+<li class="">Sends a <strong>notification</strong> to the person responsible for the dependent task</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="step-4-work-continues">Step 4: Work Continues<a href="#step-4-work-continues" class="hash-link" aria-label="Direct link to Step 4: Work Continues" title="Direct link to Step 4: Work Continues" translate="no">​</a></h3>
+<ul>
+<li class="">The newly unlocked task is now ready to work</li>
+<li class="">The responsible person was notified</li>
+<li class="">The workflow moves forward smoothly</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Before/After showing Pending task becoming In Progress after dependency completes" src="/docs/assets/images/14-progress-tasks-count-4777e5b88bf8382b1d1bc2597a479d48.png" width="1400" height="900" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-workflow-sssp-site-specific-safety-plan">Example Workflow: SSSP (Site Specific Safety Plan)<a href="#example-workflow-sssp-site-specific-safety-plan" class="hash-link" aria-label="Direct link to Example Workflow: SSSP (Site Specific Safety Plan)" title="Direct link to Example Workflow: SSSP (Site Specific Safety Plan)" translate="no">​</a></h2>
+<p>Let&#x27;s walk through a real dependency chain:</p>
+<table><thead><tr><th>Task #</th><th>Task Name</th><th>Type</th><th>Status</th><th>Dependencies</th></tr></thead><tbody><tr><td>12</td><td>Prepare SSSP</td><td>Independent</td><td>In Progress</td><td>None</td></tr><tr><td>13</td><td>Submit SSSP to Safety Director</td><td>Dependent</td><td>Pending</td><td>Task #12</td></tr><tr><td>14</td><td>Receive SSSP Approval</td><td>Dependent</td><td>Pending</td><td>Task #13</td></tr><tr><td>15</td><td>Post SSSP on Site</td><td>Dependent</td><td>Pending</td><td>Task #14</td></tr></tbody></table>
+<p><strong>What happens:</strong></p>
+<ol>
+<li class=""><strong>Day 1:</strong> Field coordinator works on Task #12 &quot;Prepare SSSP&quot;</li>
+<li class=""><strong>Day 2:</strong> Field coordinator marks #12 Complete → <strong>Task #13 automatically goes to In Progress</strong>, PM gets notified</li>
+<li class=""><strong>Day 3:</strong> PM submits SSSP, marks #13 Complete → <strong>Task #14 automatically goes to In Progress</strong>, Safety Director gets notified</li>
+<li class=""><strong>Day 5:</strong> Safety Director approves, marks #14 Complete → <strong>Task #15 automatically goes to In Progress</strong>, Foreman gets notified</li>
+<li class=""><strong>Day 6:</strong> Foreman posts SSSP on site, marks #15 Complete → Chain done! ✅</li>
+</ol>
+<p>All the status changes from Pending → In Progress happened <strong>automatically</strong>. No one had to remember to manually unlock the next task.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-dependencies-matter">Why Dependencies Matter<a href="#why-dependencies-matter" class="hash-link" aria-label="Direct link to Why Dependencies Matter" title="Direct link to Why Dependencies Matter" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-prevents-work-out-of-order">1. Prevents Work Out of Order<a href="#1-prevents-work-out-of-order" class="hash-link" aria-label="Direct link to 1. Prevents Work Out of Order" title="Direct link to 1. Prevents Work Out of Order" translate="no">​</a></h3>
+<p>You can&#x27;t accidentally start &quot;Pour concrete&quot; before &quot;Inspect forms&quot; is done. The system enforces the sequence.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-automatic-notifications">2. Automatic Notifications<a href="#2-automatic-notifications" class="hash-link" aria-label="Direct link to 2. Automatic Notifications" title="Direct link to 2. Automatic Notifications" translate="no">​</a></h3>
+<p>When your task becomes ready, you get notified. You don&#x27;t have to constantly check or guess when you can start.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-visibility-for-pms">3. Visibility for PMs<a href="#3-visibility-for-pms" class="hash-link" aria-label="Direct link to 3. Visibility for PMs" title="Direct link to 3. Visibility for PMs" translate="no">​</a></h3>
+<p>Project Managers can see:</p>
+<ul>
+<li class="">What&#x27;s blocking progress (look for Pending tasks with dependencies)</li>
+<li class="">Where bottlenecks are (if one task is holding up 5 others)</li>
+<li class="">Who needs to complete their task to keep things moving</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-coordination-without-meetings">4. Coordination Without Meetings<a href="#4-coordination-without-meetings" class="hash-link" aria-label="Direct link to 4. Coordination Without Meetings" title="Direct link to 4. Coordination Without Meetings" translate="no">​</a></h3>
+<p>Instead of &quot;Hey Bob, did you finish X so I can start Y?&quot;, the system tells you automatically.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-check-whats-blocking-a-task">How to Check What&#x27;s Blocking a Task<a href="#how-to-check-whats-blocking-a-task" class="hash-link" aria-label="Direct link to How to Check What&#x27;s Blocking a Task" title="Direct link to How to Check What&#x27;s Blocking a Task" translate="no">​</a></h2>
+<p>If you see a task with <strong>Status = Pending</strong> and <strong>Ind or Dep = Dependent</strong>:</p>
+<ol>
+<li class="">Open the task</li>
+<li class="">Look at the <strong>Dependencies</strong> field</li>
+<li class="">It will show the task(s) that need to be completed first</li>
+<li class="">Click that task to see:<!-- -->
+<ul>
+<li class="">Who&#x27;s responsible</li>
+<li class="">Current status</li>
+<li class="">When it&#x27;s due</li>
+</ul>
+</li>
+</ol>
+<p><img decoding="async" loading="lazy" alt="Task Dependencies field showing linked prerequisite task" src="/docs/assets/images/01-tasks-dependency-column-569826f0af9c76a2e0545c16a54d3138.png" width="1400" height="900" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-check-whats-waiting-on-you">How to Check What&#x27;s Waiting on You<a href="#how-to-check-whats-waiting-on-you" class="hash-link" aria-label="Direct link to How to Check What&#x27;s Waiting on You" title="Direct link to How to Check What&#x27;s Waiting on You" translate="no">​</a></h2>
+<p>If you want to see what tasks are blocked by your current task:</p>
+<ol>
+<li class="">Open the task you&#x27;re working on</li>
+<li class="">Look at the <strong>Dependencies</strong> field on <strong>other tasks</strong> in the same stage</li>
+<li class="">Or ask your PM - they can filter tasks waiting on specific prerequisites</li>
+</ol>
+<p>[NEEDS VERIFICATION: Is there a way to see &quot;downstream&quot; dependencies easily? Or does this require manual checking?]</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="common-dependency-chains-in-pre-construction">Common Dependency Chains in Pre-Construction<a href="#common-dependency-chains-in-pre-construction" class="hash-link" aria-label="Direct link to Common Dependency Chains in Pre-Construction" title="Direct link to Common Dependency Chains in Pre-Construction" translate="no">​</a></h2>
+<p>Here are typical sequences you&#x27;ll see:</p>
+<p><strong>Permit Flow:</strong></p>
+<ol>
+<li class="">Identify required permits (Independent)</li>
+<li class="">Submit permit applications (Dependent on #1)</li>
+<li class="">Receive permits (Dependent on #2)</li>
+</ol>
+<p><strong>Safety Flow:</strong></p>
+<ol>
+<li class="">Prepare SSSP (Independent)</li>
+<li class="">Submit SSSP (Dependent on #1)</li>
+<li class="">Receive SSSP approval (Dependent on #2)</li>
+<li class="">Post SSSP on site (Dependent on #3)</li>
+</ol>
+<p><strong>811 Locate Flow:</strong></p>
+<ol>
+<li class="">Call 811 (Independent)</li>
+<li class="">Wait for locate marks (Dependent on #1)</li>
+<li class="">Document locate marks (Dependent on #2)</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-if-dependencies-are-wrong">What If Dependencies Are Wrong?<a href="#what-if-dependencies-are-wrong" class="hash-link" aria-label="Direct link to What If Dependencies Are Wrong?" title="Direct link to What If Dependencies Are Wrong?" translate="no">​</a></h2>
+<p>Sometimes the template sequence doesn&#x27;t match reality. For example:</p>
+<ul>
+<li class="">Two tasks could actually be done in parallel but are set as sequential</li>
+<li class="">A task depends on something not tracked in Podio</li>
+</ul>
+<p><strong>If you&#x27;re a PM and need to adjust:</strong></p>
+<ul>
+<li class="">You can manually change <strong>Status</strong> from Pending to In Progress to override</li>
+<li class="">You can edit the <strong>Dependencies</strong> field to add/remove relationships</li>
+<li class="">You can reassign the task to someone else</li>
+</ul>
+<p><strong>If you&#x27;re field crew:</strong></p>
+<ul>
+<li class="">Don&#x27;t change dependencies yourself - talk to your PM</li>
+<li class="">If you think you can start a Dependent task early, check with PM first</li>
+<li class="">Don&#x27;t mark tasks Complete that aren&#x27;t actually done (it will unlock the chain)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tips-for-working-with-dependencies">Tips for Working with Dependencies<a href="#tips-for-working-with-dependencies" class="hash-link" aria-label="Direct link to Tips for Working with Dependencies" title="Direct link to Tips for Working with Dependencies" translate="no">​</a></h2>
+<p>✅ <strong>Do:</strong></p>
+<ul>
+<li class="">Check Dependencies field if your task is stuck in Pending</li>
+<li class="">Complete tasks as soon as they&#x27;re done (don&#x27;t delay - you might be blocking others)</li>
+<li class="">Communicate with your PM if a dependency doesn&#x27;t make sense</li>
+</ul>
+<p>❌ <strong>Don&#x27;t:</strong></p>
+<ul>
+<li class="">Mark tasks Complete if they&#x27;re not actually done (this breaks the chain)</li>
+<li class="">Manually change Dependent tasks to In Progress without checking with PM</li>
+<li class="">Ignore Pending status - there&#x27;s usually a good reason</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-big-picture">The Big Picture<a href="#the-big-picture" class="hash-link" aria-label="Direct link to The Big Picture" title="Direct link to The Big Picture" translate="no">​</a></h2>
+<p>Dependencies are like a construction schedule built into your task list:</p>
+<ul>
+<li class="">The system knows what order things should happen</li>
+<li class="">It automatically moves work forward when prerequisites are met</li>
+<li class="">It prevents mistakes and keeps everyone coordinated</li>
+<li class="">It saves time by reducing back-and-forth communication</li>
+</ul>
+<p><strong>Bottom line:</strong> If your task is Pending and Dependent, check what it&#x27;s waiting on. If your task is Complete, you might be unlocking someone else&#x27;s work - and they&#x27;ll get notified automatically.</p>
+<hr>
+<p><strong>Related:</strong></p>
+<ul>
+<li class=""><a class="" href="/docs/tasks/completing-tasks">completing-tasks.md</a> - How marking tasks complete triggers automations</li>
+<li class=""><a class="" href="/docs/automations/task-population">task-population.md</a> - How tasks and dependencies get created</li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/tasks/completing-tasks"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">How to Mark Tasks Complete</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/tasks/checking-job-status"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">How to Check Task Progress on a Project</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#what-are-dependencies" class="table-of-contents__link toc-highlight">What Are Dependencies?</a></li><li><a href="#independent-vs-dependent-tasks" class="table-of-contents__link toc-highlight">Independent vs Dependent Tasks</a><ul><li><a href="#independent-tasks" class="table-of-contents__link toc-highlight">Independent Tasks</a></li><li><a href="#dependent-tasks" class="table-of-contents__link toc-highlight">Dependent Tasks</a></li></ul></li><li><a href="#how-dependencies-work-automatic" class="table-of-contents__link toc-highlight">How Dependencies Work (Automatic!)</a><ul><li><a href="#step-1-dependent-task-is-created" class="table-of-contents__link toc-highlight">Step 1: Dependent Task is Created</a></li><li><a href="#step-2-someone-completes-the-prerequisite" class="table-of-contents__link toc-highlight">Step 2: Someone Completes the Prerequisite</a></li><li><a href="#step-3-automation-kicks-in" class="table-of-contents__link toc-highlight">Step 3: Automation Kicks In</a></li><li><a href="#step-4-work-continues" class="table-of-contents__link toc-highlight">Step 4: Work Continues</a></li></ul></li><li><a href="#example-workflow-sssp-site-specific-safety-plan" class="table-of-contents__link toc-highlight">Example Workflow: SSSP (Site Specific Safety Plan)</a></li><li><a href="#why-dependencies-matter" class="table-of-contents__link toc-highlight">Why Dependencies Matter</a><ul><li><a href="#1-prevents-work-out-of-order" class="table-of-contents__link toc-highlight">1. Prevents Work Out of Order</a></li><li><a href="#2-automatic-notifications" class="table-of-contents__link toc-highlight">2. Automatic Notifications</a></li><li><a href="#3-visibility-for-pms" class="table-of-contents__link toc-highlight">3. Visibility for PMs</a></li><li><a href="#4-coordination-without-meetings" class="table-of-contents__link toc-highlight">4. Coordination Without Meetings</a></li></ul></li><li><a href="#how-to-check-whats-blocking-a-task" class="table-of-contents__link toc-highlight">How to Check What&#39;s Blocking a Task</a></li><li><a href="#how-to-check-whats-waiting-on-you" class="table-of-contents__link toc-highlight">How to Check What&#39;s Waiting on You</a></li><li><a href="#common-dependency-chains-in-pre-construction" class="table-of-contents__link toc-highlight">Common Dependency Chains in Pre-Construction</a></li><li><a href="#what-if-dependencies-are-wrong" class="table-of-contents__link toc-highlight">What If Dependencies Are Wrong?</a></li><li><a href="#tips-for-working-with-dependencies" class="table-of-contents__link toc-highlight">Tips for Working with Dependencies</a></li><li><a href="#the-big-picture" class="table-of-contents__link toc-highlight">The Big Picture</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Precision Site Services. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

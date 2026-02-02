@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-automations/troubleshooting-automations" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Troubleshooting Automations | PSS Podio Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://jmac122.github.io/docs/automations/troubleshooting-automations"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Troubleshooting Automations | PSS Podio Documentation"><meta data-rh="true" name="description" content="Things usually work smoothly, but sometimes automations don&#x27;t fire as expected. Here&#x27;s how to diagnose and fix common issues."><meta data-rh="true" property="og:description" content="Things usually work smoothly, but sometimes automations don&#x27;t fire as expected. Here&#x27;s how to diagnose and fix common issues."><link data-rh="true" rel="icon" href="/docs/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://jmac122.github.io/docs/automations/troubleshooting-automations"><link data-rh="true" rel="alternate" href="https://jmac122.github.io/docs/automations/troubleshooting-automations" hreflang="en"><link data-rh="true" rel="alternate" href="https://jmac122.github.io/docs/automations/troubleshooting-automations" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Troubleshooting Automations","item":"https://jmac122.github.io/docs/automations/troubleshooting-automations"}]}</script><link rel="stylesheet" href="/docs/assets/css/styles.d2365209.css">
+<script src="/docs/assets/js/runtime~main.1dacca23.js" defer="defer"></script>
+<script src="/docs/assets/js/main.f30d4b81.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/docs/img/favicon.ico"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/docs/intro"><div class="navbar__logo"><img src="/docs/img/favicon.ico" alt="PSS Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/docs/img/favicon.ico" alt="PSS Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">PSS Podio Docs</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/intro">Documentation</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/jmac122/docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/intro"><span title="Welcome to PSS Podio Documentation" class="linkLabel_WmDU">Welcome to PSS Podio Documentation</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/getting-started/logging-in"><span title="Getting Started" class="categoryLinkLabel_W154">Getting Started</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/core-concepts/our-apps-explained"><span title="Core Concepts" class="categoryLinkLabel_W154">Core Concepts</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/projects/finding-projects"><span title="Projects" class="categoryLinkLabel_W154">Projects</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/stages/how-stages-work"><span title="Stages" class="categoryLinkLabel_W154">Stages</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/tasks/finding-your-tasks"><span title="Tasks" class="categoryLinkLabel_W154">Tasks</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/contacts/adding-contacts"><span title="Contacts" class="categoryLinkLabel_W154">Contacts</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/submittals-rfis-change-orders/submittals"><span title="Submittals, RFIs &amp; Change Orders" class="categoryLinkLabel_W154">Submittals, RFIs &amp; Change Orders</span></a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/docs/automations/what-happens-automatically"><span title="Automations" class="categoryLinkLabel_W154">Automations</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/automations/what-happens-automatically"><span title="What Happens Automatically in Podio" class="linkLabel_WmDU">What Happens Automatically in Podio</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/automations/task-population"><span title="How Just-in-Time Task Population Works" class="linkLabel_WmDU">How Just-in-Time Task Population Works</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/automations/troubleshooting-automations"><span title="Troubleshooting Automations" class="linkLabel_WmDU">Troubleshooting Automations</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/docs/reference/glossary"><span title="Reference" class="categoryLinkLabel_W154">Reference</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><span class="breadcrumbs__link">Automations</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Troubleshooting Automations</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Troubleshooting Automations</h1></header>
+<p>Things usually work smoothly, but sometimes automations don&#x27;t fire as expected. Here&#x27;s how to diagnose and fix common issues.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem-1-tasks-didnt-appear-when-i-activated-a-stage">Problem 1: Tasks Didn&#x27;t Appear When I Activated a Stage<a href="#problem-1-tasks-didnt-appear-when-i-activated-a-stage" class="hash-link" aria-label="Direct link to Problem 1: Tasks Didn&#x27;t Appear When I Activated a Stage" title="Direct link to Problem 1: Tasks Didn&#x27;t Appear When I Activated a Stage" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="symptoms">Symptoms<a href="#symptoms" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms" translate="no">​</a></h3>
+<ul>
+<li class="">You changed <strong>Current Stage Status</strong> to &quot;[Stage] Active&quot;</li>
+<li class="">It&#x27;s been &gt;5 minutes</li>
+<li class=""><strong>Task Overview</strong> is still empty on that stage</li>
+<li class=""><strong>Automation Status</strong> is stuck on &quot;1 - Pending Creation&quot; or blank</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="diagnosis-steps">Diagnosis Steps<a href="#diagnosis-steps" class="hash-link" aria-label="Direct link to Diagnosis Steps" title="Direct link to Diagnosis Steps" translate="no">​</a></h3>
+<p><strong>Step 1: Check Automation Status</strong></p>
+<ol>
+<li class="">Open the <strong>Stage</strong> (click it from Linked Stages on the project)</li>
+<li class="">Look at the <strong>Automation Status</strong> field</li>
+</ol>
+<p><strong>What it should say:</strong></p>
+<ul>
+<li class="">&quot;3 - Linking Complete&quot; ✅ (all done)</li>
+</ul>
+<p><strong>What it might say:</strong></p>
+<ul>
+<li class="">&quot;1 - Pending Creation&quot; ⏳ (still processing, give it more time)</li>
+<li class="">Blank ❌ (automation didn&#x27;t trigger)</li>
+<li class="">&quot;2 - Creation Complete&quot; ⏸️ (tasks created, but dependencies not linked yet)</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Stage detail showing Automation Status field" src="/docs/assets/images/05-task-status-field-229af5cf927513d315aa56f3195b801c.png" width="1400" height="900" class="img_ev3q"></p>
+<p><strong>Step 2: Check Task Templates Exist</strong>
+The automation pulls from <strong>Task Templates</strong> app.</p>
+<ol>
+<li class="">Go to <strong>Task Templates</strong> app (should be in your workspace)</li>
+<li class="">Filter by <strong>Project Stage = [Your Stage]</strong> (e.g., Pre-Construction)</li>
+<li class="">Filter by <strong>Division = [Your Project Division]</strong> (e.g., Concrete)</li>
+<li class="">Do templates exist?</li>
+</ol>
+<p><strong>If NO templates exist:</strong></p>
+<ul>
+<li class="">The automation has nothing to create tasks from</li>
+<li class="">Contact your admin/PM to populate templates</li>
+</ul>
+<p><strong>If templates exist:</strong></p>
+<ul>
+<li class="">Automation should have worked</li>
+<li class="">Continue to Step 3</li>
+</ul>
+<p><strong>Step 3: Check Project Division Field</strong>
+The automation filters templates by <strong>Division</strong>.</p>
+<ol>
+<li class="">Open your <strong>Project</strong></li>
+<li class="">Look at the <strong>Division</strong> field</li>
+<li class="">Is it set to Concrete, Drywall, or Other?</li>
+</ol>
+<p><strong>If Division is blank:</strong></p>
+<ul>
+<li class="">Automation can&#x27;t find templates</li>
+<li class="">Set the Division field</li>
+<li class="">Change Current Stage Status to the stage again to re-trigger automation</li>
+</ul>
+<p><strong>Step 4: Wait Longer (Seriously)</strong>
+If it&#x27;s only been 2-3 minutes, <strong>be patient</strong>.</p>
+<p>Complex stages (40+ tasks) can take up to 5 minutes if the system is busy.</p>
+<p><strong>Step 5: Re-Trigger the Automation</strong>
+If it&#x27;s been &gt;5 minutes and still nothing:</p>
+<ol>
+<li class="">Change <strong>Current Stage Status</strong> to a different stage (e.g., if stuck on Pre-Con, change to Mobilization)</li>
+<li class="">Save</li>
+<li class="">Wait 30 seconds</li>
+<li class="">Change it back to the correct stage (e.g., Pre-Construction Active)</li>
+<li class="">Save</li>
+<li class="">Wait 2-3 minutes</li>
+</ol>
+<p>This &quot;resets&quot; the automation trigger.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="still-not-working">Still Not Working?<a href="#still-not-working" class="hash-link" aria-label="Direct link to Still Not Working?" title="Direct link to Still Not Working?" translate="no">​</a></h3>
+<p><strong>Contact your GlobiFlow admin or PM.</strong> Possible causes:</p>
+<ul>
+<li class="">GlobiFlow automation is paused or disabled</li>
+<li class="">API connection issue with Podio</li>
+<li class="">Template app was moved or deleted</li>
+<li class="">Automation was edited incorrectly</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem-2-tasks-were-created-but-dependencies-didnt-link">Problem 2: Tasks Were Created But Dependencies Didn&#x27;t Link<a href="#problem-2-tasks-were-created-but-dependencies-didnt-link" class="hash-link" aria-label="Direct link to Problem 2: Tasks Were Created But Dependencies Didn&#x27;t Link" title="Direct link to Problem 2: Tasks Were Created But Dependencies Didn&#x27;t Link" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="symptoms-1">Symptoms<a href="#symptoms-1" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms" translate="no">​</a></h3>
+<ul>
+<li class="">Tasks appeared in Task Overview ✅</li>
+<li class=""><strong>Automation Status</strong> says &quot;2 - Creation Complete&quot; (not &quot;3 - Linking Complete&quot;)</li>
+<li class="">Dependent tasks have empty <strong>Dependencies</strong> field (should show prerequisite tasks)</li>
+<li class="">All tasks are In Progress (Dependent tasks should be Pending)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="diagnosis-steps-1">Diagnosis Steps<a href="#diagnosis-steps-1" class="hash-link" aria-label="Direct link to Diagnosis Steps" title="Direct link to Diagnosis Steps" translate="no">​</a></h3>
+<p><strong>Step 1: Check Automation Status</strong>
+If it says &quot;2 - Creation Complete&quot;:</p>
+<ul>
+<li class="">Task creation worked</li>
+<li class="">Dependency linking automation didn&#x27;t run (yet or at all)</li>
+</ul>
+<p><strong>Step 2: Wait a Bit Longer</strong>
+Dependency linking is a <strong>second automation</strong> that runs after task creation completes.</p>
+<p>Give it another 2-3 minutes.</p>
+<p><strong>Step 3: Check Task Templates for Dependent Task #</strong>
+The linking automation uses <strong>Dependent Task #</strong> field in templates to know what to link.</p>
+<ol>
+<li class="">Go to <strong>Task Templates</strong> app</li>
+<li class="">Find a template that should be Dependent</li>
+<li class="">Check if <strong>Dependent Task #</strong> field is filled out</li>
+</ol>
+<p><strong>If it&#x27;s blank:</strong></p>
+<ul>
+<li class="">Template is incomplete</li>
+<li class="">Tasks won&#x27;t link automatically</li>
+<li class="">You&#x27;ll need to manually add dependencies (see below)</li>
+</ul>
+<p><strong>Step 4: Manually Link Dependencies</strong>
+If automation failed or templates are incomplete:</p>
+<ol>
+<li class="">Open a Dependent task</li>
+<li class="">Edit the <strong>Dependencies</strong> field</li>
+<li class="">Search for and select the prerequisite task(s)</li>
+<li class="">Change <strong>Status</strong> from In Progress to <strong>Pending</strong> (since it should wait)</li>
+<li class="">Save</li>
+</ol>
+<p>Repeat for each dependent task.</p>
+<p><img decoding="async" loading="lazy" alt="Editing Dependencies field on a task" src="/docs/assets/images/01-tasks-dependency-column-569826f0af9c76a2e0545c16a54d3138.png" width="1400" height="900" class="img_ev3q"></p>
+<p>This is tedious but ensures workflows work correctly.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem-3-dependent-task-didnt-unlock-when-i-completed-prerequisite">Problem 3: Dependent Task Didn&#x27;t Unlock When I Completed Prerequisite<a href="#problem-3-dependent-task-didnt-unlock-when-i-completed-prerequisite" class="hash-link" aria-label="Direct link to Problem 3: Dependent Task Didn&#x27;t Unlock When I Completed Prerequisite" title="Direct link to Problem 3: Dependent Task Didn&#x27;t Unlock When I Completed Prerequisite" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="symptoms-2">Symptoms<a href="#symptoms-2" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms" translate="no">​</a></h3>
+<ul>
+<li class="">You marked Task A <strong>Complete</strong></li>
+<li class="">Task B depends on Task A (you verified in <strong>Dependencies</strong> field)</li>
+<li class="">Task B is still <strong>Status = Pending</strong> (should have changed to In Progress)</li>
+<li class="">The responsible person wasn&#x27;t notified</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="diagnosis-steps-2">Diagnosis Steps<a href="#diagnosis-steps-2" class="hash-link" aria-label="Direct link to Diagnosis Steps" title="Direct link to Diagnosis Steps" translate="no">​</a></h3>
+<p><strong>Step 1: Verify Dependency is Set Correctly</strong></p>
+<ol>
+<li class="">Open Task B (the dependent task)</li>
+<li class="">Look at <strong>Dependencies</strong> field</li>
+<li class="">Does it list Task A?</li>
+</ol>
+<p><strong>If NO:</strong></p>
+<ul>
+<li class="">The dependency wasn&#x27;t linked correctly</li>
+<li class="">Automation won&#x27;t trigger</li>
+<li class="">Manually add Task A to Dependencies field, then re-complete Task A (see Step 4)</li>
+</ul>
+<p><strong>If YES:</strong></p>
+<ul>
+<li class="">Dependency is set correctly</li>
+<li class="">Continue to Step 2</li>
+</ul>
+<p><strong>Step 2: Check Task A is Actually Complete</strong></p>
+<ol>
+<li class="">Open Task A</li>
+<li class="">Look at <strong>Status</strong> field</li>
+<li class="">Is it <strong>Complete</strong> (green)?</li>
+</ol>
+<p><strong>If NO:</strong></p>
+<ul>
+<li class="">You might have changed it back by mistake</li>
+<li class="">Mark it Complete again</li>
+</ul>
+<p><strong>Step 3: Check GlobiFlow is Running</strong>
+[NEEDS VERIFICATION: How can users check GlobiFlow status? Is there a dashboard?]</p>
+<p>If GlobiFlow is paused or disabled, automations won&#x27;t run.</p>
+<p><strong>Contact your admin</strong> to verify GlobiFlow is active.</p>
+<p><strong>Step 4: Re-Trigger the Automation</strong></p>
+<ol>
+<li class="">Open Task A (the prerequisite)</li>
+<li class="">Change <strong>Status</strong> to In Progress (temporarily)</li>
+<li class="">Save</li>
+<li class="">Change <strong>Status</strong> back to Complete</li>
+<li class="">Save</li>
+<li class="">Wait 30 seconds</li>
+<li class="">Check Task B - it should now be In Progress</li>
+</ol>
+<p>This forces the automation to detect the completion event again.</p>
+<p><strong>Step 5: Manually Unlock Task B</strong>
+If automation still doesn&#x27;t work:</p>
+<ol>
+<li class="">Open Task B</li>
+<li class="">Change <strong>Status</strong> to <strong>In Progress</strong></li>
+<li class="">Save</li>
+<li class="">Manually notify the responsible person</li>
+</ol>
+<p>Then contact your admin about the automation failure.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem-4-recurring-tasks-didnt-regenerate">Problem 4: Recurring Tasks Didn&#x27;t Regenerate<a href="#problem-4-recurring-tasks-didnt-regenerate" class="hash-link" aria-label="Direct link to Problem 4: Recurring Tasks Didn&#x27;t Regenerate" title="Direct link to Problem 4: Recurring Tasks Didn&#x27;t Regenerate" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="symptoms-3">Symptoms<a href="#symptoms-3" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms" translate="no">​</a></h3>
+<ul>
+<li class="">You completed a task with <strong>Type = Recurring</strong></li>
+<li class="">It&#x27;s been a week (or the expected recurrence interval)</li>
+<li class="">No new copy of the task appeared</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="diagnosis-steps-3">Diagnosis Steps<a href="#diagnosis-steps-3" class="hash-link" aria-label="Direct link to Diagnosis Steps" title="Direct link to Diagnosis Steps" translate="no">​</a></h3>
+<p><strong>Step 1: Check Stage is Still Active</strong>
+Recurring tasks only regenerate for <strong>active stages</strong>.</p>
+<ol>
+<li class="">Open your <strong>Project</strong></li>
+<li class="">Check <strong>Current Stage Status</strong></li>
+<li class="">Is the stage the task belongs to still Active?</li>
+</ol>
+<p><strong>If NO:</strong></p>
+<ul>
+<li class="">You moved to a new stage</li>
+<li class="">Recurring tasks from old stage won&#x27;t regenerate</li>
+<li class="">This is expected behavior</li>
+</ul>
+<p><strong>If YES:</strong></p>
+<ul>
+<li class="">Continue to Step 2</li>
+</ul>
+<p><strong>Step 2: Check Type Field</strong></p>
+<ol>
+<li class="">Open the completed recurring task</li>
+<li class="">Look at <strong>Type</strong> field</li>
+<li class="">Is it set to <strong>Recurring</strong>?</li>
+</ol>
+<p><strong>If NO:</strong></p>
+<ul>
+<li class="">It&#x27;s not marked as recurring</li>
+<li class="">Won&#x27;t regenerate</li>
+<li class="">Edit it and set Type = Recurring, or manually create a new copy</li>
+</ul>
+<p><strong>Step 3: Check Recurrence Schedule</strong>
+[NEEDS VERIFICATION: What&#x27;s the exact recurrence schedule? Weekly on Mondays? Configurable?]</p>
+<p>The regeneration might be on a weekly schedule (e.g., Mondays at 9 AM).</p>
+<p>If you completed the task on Thursday, a new one might not appear until next Monday.</p>
+<p><strong>Step 4: Contact Admin</strong>
+If it&#x27;s past the expected regeneration time and still nothing:</p>
+<ul>
+<li class="">GlobiFlow recurring task automation might be disabled</li>
+<li class="">Schedule might have changed</li>
+<li class="">Contact admin to investigate</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem-5-new-project-didnt-create-stages">Problem 5: New Project Didn&#x27;t Create Stages<a href="#problem-5-new-project-didnt-create-stages" class="hash-link" aria-label="Direct link to Problem 5: New Project Didn&#x27;t Create Stages" title="Direct link to Problem 5: New Project Didn&#x27;t Create Stages" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="symptoms-4">Symptoms<a href="#symptoms-4" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms" translate="no">​</a></h3>
+<ul>
+<li class="">You created a new <strong>Project</strong></li>
+<li class="">Stages weren&#x27;t automatically created</li>
+<li class=""><strong>Linked Stages</strong> field is empty</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="diagnosis-steps-4">Diagnosis Steps<a href="#diagnosis-steps-4" class="hash-link" aria-label="Direct link to Diagnosis Steps" title="Direct link to Diagnosis Steps" translate="no">​</a></h3>
+<p><strong>Step 1: Wait a Minute</strong>
+Stage creation is usually fast (30-60 seconds), but give it a minute.</p>
+<p><strong>Step 2: Check GlobiFlow</strong>
+The &quot;Create Stages on New Project&quot; automation might be paused.</p>
+<p>Contact your admin to verify it&#x27;s active.</p>
+<p><strong>Step 3: Manually Create Stages</strong>
+If automation is broken and you need to move forward:</p>
+<ol>
+<li class="">Go to <strong>Stages</strong> app</li>
+<li class="">Create 5 stages manually:<!-- -->
+<ul>
+<li class="">Pre-Construction</li>
+<li class="">Mobilization</li>
+<li class="">Construction</li>
+<li class="">Demobilization</li>
+<li class="">Retainage</li>
+</ul>
+</li>
+<li class="">For each stage, set <strong>Linked Project</strong> to your project</li>
+<li class="">Fill out other fields (Stage Name, etc.)</li>
+</ol>
+<p>This is tedious, but gets you unblocked.</p>
+<p><strong>Then contact admin</strong> to fix the automation for future projects.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem-6-tasks-assigned-to-wrong-people">Problem 6: Tasks Assigned to Wrong People<a href="#problem-6-tasks-assigned-to-wrong-people" class="hash-link" aria-label="Direct link to Problem 6: Tasks Assigned to Wrong People" title="Direct link to Problem 6: Tasks Assigned to Wrong People" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="symptoms-5">Symptoms<a href="#symptoms-5" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms" translate="no">​</a></h3>
+<ul>
+<li class="">Tasks were created, but <strong>Responsible</strong> field shows the wrong person or a role name (e.g., &quot;Project Manager&quot; instead of &quot;Jared McKenzie&quot;)</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="diagnosis-steps-5">Diagnosis Steps<a href="#diagnosis-steps-5" class="hash-link" aria-label="Direct link to Diagnosis Steps" title="Direct link to Diagnosis Steps" translate="no">​</a></h3>
+<p><strong>Step 1: Check Project Role Fields</strong>
+Task assignment pulls from <strong>Project</strong> fields:</p>
+<ol>
+<li class="">Open your <strong>Project</strong></li>
+<li class="">Check these fields:<!-- -->
+<ul>
+<li class=""><strong>Project Manager</strong> (should be a person&#x27;s name)</li>
+<li class=""><strong>OC - Operations Coordinator</strong> (should be a person&#x27;s name)</li>
+<li class=""><strong>FOCS - Field Operations Coordinator</strong> (should be a person&#x27;s name)</li>
+<li class=""><strong>Foreman</strong> (should be a person&#x27;s name)</li>
+</ul>
+</li>
+</ol>
+<p><strong>If any are blank:</strong></p>
+<ul>
+<li class="">Tasks assigned to that role will be blank or show the role name</li>
+<li class="">Fill in the correct person</li>
+<li class="">Manually reassign the tasks (see <a class="" href="/docs/tasks/assigning-tasks">assigning-tasks.md</a>)</li>
+</ul>
+<p><strong>Step 2: Manually Reassign Tasks</strong>
+If automation assigned incorrectly:</p>
+<ol>
+<li class="">Go to <strong>Tasks</strong> app</li>
+<li class="">Filter by the stage or project</li>
+<li class="">Open each task with wrong assignment</li>
+<li class="">Change <strong>Responsible</strong> to the correct person</li>
+<li class="">Save</li>
+</ol>
+<p>Or use bulk edit if available [NEEDS VERIFICATION].</p>
+<p><strong>This doesn&#x27;t break anything</strong> - you&#x27;re just overriding the automation&#x27;s initial assignment.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem-7-automation-status-stuck-on-1---pending-creation">Problem 7: Automation Status Stuck on &quot;1 - Pending Creation&quot;<a href="#problem-7-automation-status-stuck-on-1---pending-creation" class="hash-link" aria-label="Direct link to Problem 7: Automation Status Stuck on &quot;1 - Pending Creation&quot;" title="Direct link to Problem 7: Automation Status Stuck on &quot;1 - Pending Creation&quot;" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="symptoms-6">Symptoms<a href="#symptoms-6" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms" translate="no">​</a></h3>
+<ul>
+<li class="">Changed Current Stage Status</li>
+<li class=""><strong>Automation Status</strong> shows &quot;1 - Pending Creation&quot;</li>
+<li class="">It&#x27;s been &gt;10 minutes</li>
+<li class="">No tasks appeared</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="diagnosis">Diagnosis<a href="#diagnosis" class="hash-link" aria-label="Direct link to Diagnosis" title="Direct link to Diagnosis" translate="no">​</a></h3>
+<p><strong>This means the automation started but didn&#x27;t finish.</strong></p>
+<p>Possible causes:</p>
+<ul>
+<li class="">GlobiFlow encountered an error mid-process</li>
+<li class="">API rate limit hit</li>
+<li class="">Template data is malformed</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="solution">Solution<a href="#solution" class="hash-link" aria-label="Direct link to Solution" title="Direct link to Solution" translate="no">​</a></h3>
+<p><strong>Step 1: Re-Trigger</strong></p>
+<ol>
+<li class="">Change <strong>Current Stage Status</strong> to a different stage</li>
+<li class="">Save</li>
+<li class="">Wait 1 minute</li>
+<li class="">Change back to the correct stage</li>
+<li class="">Save</li>
+<li class="">Wait 5 minutes</li>
+</ol>
+<p><strong>Step 2: Contact Admin</strong>
+If it happens again, there&#x27;s a deeper issue with the automation.</p>
+<p>Provide:</p>
+<ul>
+<li class="">Project name</li>
+<li class="">Stage you tried to activate</li>
+<li class="">Division</li>
+<li class="">Time you triggered it</li>
+</ul>
+<p>Admin can check GlobiFlow logs for errors.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="general-troubleshooting-tips">General Troubleshooting Tips<a href="#general-troubleshooting-tips" class="hash-link" aria-label="Direct link to General Troubleshooting Tips" title="Direct link to General Troubleshooting Tips" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-do">✅ Do:<a href="#-do" class="hash-link" aria-label="Direct link to ✅ Do:" title="Direct link to ✅ Do:" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Wait at least 2-3 minutes</strong> before assuming an automation failed</li>
+<li class=""><strong>Check Automation Status field</strong> for clues</li>
+<li class=""><strong>Verify required fields are filled out</strong> (Division, PM, OC, etc.)</li>
+<li class=""><strong>Re-trigger automations</strong> by changing and re-changing fields</li>
+<li class=""><strong>Manually fix issues</strong> if you need to keep working (reassign tasks, add dependencies)</li>
+<li class=""><strong>Document what went wrong</strong> so you can report to admin</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dont">❌ Don&#x27;t:<a href="#-dont" class="hash-link" aria-label="Direct link to ❌ Don&#x27;t:" title="Direct link to ❌ Don&#x27;t:" translate="no">​</a></h3>
+<ul>
+<li class="">Panic and start deleting things</li>
+<li class="">Create duplicate tasks while waiting for automation (wait first!)</li>
+<li class="">Assume it&#x27;s broken after 30 seconds</li>
+<li class="">Manually create 40+ tasks when you could just re-trigger automation</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="when-to-contact-admin">When to Contact Admin<a href="#when-to-contact-admin" class="hash-link" aria-label="Direct link to When to Contact Admin" title="Direct link to When to Contact Admin" translate="no">​</a></h3>
+<p>Contact your GlobiFlow admin or PM if:</p>
+<ul>
+<li class="">Automation fails repeatedly</li>
+<li class="">Automation Status is stuck for &gt;10 minutes</li>
+<li class="">Tasks are missing fields or data</li>
+<li class="">You see error messages</li>
+<li class="">Recurring tasks haven&#x27;t regenerated after multiple cycles</li>
+<li class="">Entire stages are missing tasks</li>
+</ul>
+<p><strong>Provide details:</strong></p>
+<ul>
+<li class="">Project name</li>
+<li class="">Stage</li>
+<li class="">Division</li>
+<li class="">What you were trying to do</li>
+<li class="">What happened (or didn&#x27;t happen)</li>
+<li class="">Screenshot of Automation Status or error</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quick-reference-automation-status-meanings">Quick Reference: Automation Status Meanings<a href="#quick-reference-automation-status-meanings" class="hash-link" aria-label="Direct link to Quick Reference: Automation Status Meanings" title="Direct link to Quick Reference: Automation Status Meanings" translate="no">​</a></h2>
+<table><thead><tr><th>Status</th><th>Meaning</th><th>What To Do</th></tr></thead><tbody><tr><td>Blank</td><td>Automation hasn&#x27;t triggered</td><td>Re-trigger by changing stage status again</td></tr><tr><td>&quot;1 - Pending Creation&quot;</td><td>Automation started, creating tasks</td><td>Wait 2-5 minutes</td></tr><tr><td>&quot;2 - Creation Complete&quot;</td><td>Tasks created, linking dependencies</td><td>Wait 1-2 more minutes</td></tr><tr><td>&quot;3 - Linking Complete&quot;</td><td>All done! ✅</td><td>Nothing, it worked</td></tr><tr><td>Stuck on &quot;1&quot; for &gt;10 min</td><td>Automation failed mid-process</td><td>Re-trigger, contact admin if repeats</td></tr></tbody></table>
+<hr>
+<p><strong>Related:</strong></p>
+<ul>
+<li class=""><a class="" href="/docs/automations/what-happens-automatically">what-happens-automatically.md</a> - Overview of all automations</li>
+<li class=""><a class="" href="/docs/automations/task-population">task-population.md</a> - How just-in-time task creation works</li>
+<li class=""><a class="" href="/docs/tasks/dependencies">dependencies.md</a> - How dependencies work</li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/automations/task-population"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">How Just-in-Time Task Population Works</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/reference/glossary"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Podio Glossary - PSS Terms &amp; Abbreviations</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#problem-1-tasks-didnt-appear-when-i-activated-a-stage" class="table-of-contents__link toc-highlight">Problem 1: Tasks Didn&#39;t Appear When I Activated a Stage</a><ul><li><a href="#symptoms" class="table-of-contents__link toc-highlight">Symptoms</a></li><li><a href="#diagnosis-steps" class="table-of-contents__link toc-highlight">Diagnosis Steps</a></li><li><a href="#still-not-working" class="table-of-contents__link toc-highlight">Still Not Working?</a></li></ul></li><li><a href="#problem-2-tasks-were-created-but-dependencies-didnt-link" class="table-of-contents__link toc-highlight">Problem 2: Tasks Were Created But Dependencies Didn&#39;t Link</a><ul><li><a href="#symptoms-1" class="table-of-contents__link toc-highlight">Symptoms</a></li><li><a href="#diagnosis-steps-1" class="table-of-contents__link toc-highlight">Diagnosis Steps</a></li></ul></li><li><a href="#problem-3-dependent-task-didnt-unlock-when-i-completed-prerequisite" class="table-of-contents__link toc-highlight">Problem 3: Dependent Task Didn&#39;t Unlock When I Completed Prerequisite</a><ul><li><a href="#symptoms-2" class="table-of-contents__link toc-highlight">Symptoms</a></li><li><a href="#diagnosis-steps-2" class="table-of-contents__link toc-highlight">Diagnosis Steps</a></li></ul></li><li><a href="#problem-4-recurring-tasks-didnt-regenerate" class="table-of-contents__link toc-highlight">Problem 4: Recurring Tasks Didn&#39;t Regenerate</a><ul><li><a href="#symptoms-3" class="table-of-contents__link toc-highlight">Symptoms</a></li><li><a href="#diagnosis-steps-3" class="table-of-contents__link toc-highlight">Diagnosis Steps</a></li></ul></li><li><a href="#problem-5-new-project-didnt-create-stages" class="table-of-contents__link toc-highlight">Problem 5: New Project Didn&#39;t Create Stages</a><ul><li><a href="#symptoms-4" class="table-of-contents__link toc-highlight">Symptoms</a></li><li><a href="#diagnosis-steps-4" class="table-of-contents__link toc-highlight">Diagnosis Steps</a></li></ul></li><li><a href="#problem-6-tasks-assigned-to-wrong-people" class="table-of-contents__link toc-highlight">Problem 6: Tasks Assigned to Wrong People</a><ul><li><a href="#symptoms-5" class="table-of-contents__link toc-highlight">Symptoms</a></li><li><a href="#diagnosis-steps-5" class="table-of-contents__link toc-highlight">Diagnosis Steps</a></li></ul></li><li><a href="#problem-7-automation-status-stuck-on-1---pending-creation" class="table-of-contents__link toc-highlight">Problem 7: Automation Status Stuck on &quot;1 - Pending Creation&quot;</a><ul><li><a href="#symptoms-6" class="table-of-contents__link toc-highlight">Symptoms</a></li><li><a href="#diagnosis" class="table-of-contents__link toc-highlight">Diagnosis</a></li><li><a href="#solution" class="table-of-contents__link toc-highlight">Solution</a></li></ul></li><li><a href="#general-troubleshooting-tips" class="table-of-contents__link toc-highlight">General Troubleshooting Tips</a><ul><li><a href="#-do" class="table-of-contents__link toc-highlight">✅ Do:</a></li><li><a href="#-dont" class="table-of-contents__link toc-highlight">❌ Don&#39;t:</a></li><li><a href="#when-to-contact-admin" class="table-of-contents__link toc-highlight">When to Contact Admin</a></li></ul></li><li><a href="#quick-reference-automation-status-meanings" class="table-of-contents__link toc-highlight">Quick Reference: Automation Status Meanings</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Precision Site Services. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
