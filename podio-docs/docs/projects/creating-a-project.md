@@ -38,7 +38,7 @@ These are the must-haves. Don't skip them or things will break.
 #### **Job #**
 Enter a unique number for this job. 
 
-**How to pick one:** [NEEDS VERIFICATION: Is there a numbering system? Sequential? Year-based?]
+**How to pick one:** Check the Job Listings Google Sheet to find out what the next job number is for the specific entity that the new project is for.
 
 #### **Job Name**
 Give it a clear, descriptive name.
@@ -53,8 +53,7 @@ Give it a clear, descriptive name.
 #### **Division**
 **THIS IS CRITICAL.** Pick the right division:
 - **Concrete** (most common — foundation work, flatwork, etc.)
-- **Drywall** 
-- **Other**
+- **Drywall**
 
 **Why it matters:** This controls which task templates get loaded. If you pick the wrong division, you'll get the wrong tasks.
 
@@ -98,7 +97,7 @@ Click **Customer / GC** to search and select existing contacts from your Contact
 
 **Tip:** Use Option 2 if the contact already exists — it keeps info synced and you get their full email/phone/title.
 
-![Customer/GC relationship picker](/img/projects/creating-editing/18-customer-gc-picker.png)
+![Customer/GC field showing contact selection](/img/contacts/03-customer-gc-field-annotated.png)
 
 ---
 
