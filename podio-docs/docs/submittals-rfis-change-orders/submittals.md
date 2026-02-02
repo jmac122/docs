@@ -16,7 +16,9 @@ Getting submittals approved is a **critical Pre-Construction task**. You can't s
 
 Submittals are tracked as **Tasks** in the **Pre-Construction Stage** of your project.
 
-📸 [Screenshot placeholder: Pre-Construction stage showing submittal-related tasks]
+:::note Screenshot needed
+Pre-Construction stage detail page showing submittal-related tasks in the Task Overview would be helpful here.
+:::
 
 ---
 

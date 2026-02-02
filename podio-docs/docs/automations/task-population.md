@@ -65,7 +65,7 @@ Go to **Projects** app → Click your project
 3. Look at **Task Overview** - you should see tasks listed
 4. Check **Automation Status** - should say "3 - Linking Complete"
 
-![Stage detail showing Task Overview populated with tasks](/img/tasks/detail-page/02-task-overview-field.png)
+![Task detail page showing overview field](/img/tasks/detail-page/02-task-overview-field.png)
 
 If tasks didn't appear, see [troubleshooting-automations.md](troubleshooting-automations.md).
 
@@ -119,7 +119,7 @@ Task templates reference **roles** (e.g., "Project Manager", "Foreman"), not spe
 
 **Best practice:** Fill out PM, OC, FOCS, and Foreman fields **before** activating the first stage.
 
-📸 [Screenshot placeholder: Project page showing PM, OC, FOCS, Foreman fields]
+![Project team member fields](/img/projects/detail-page/09-team-member-fields.png)
 
 ---
 

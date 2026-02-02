@@ -18,7 +18,9 @@ RFIs are normal. Better to ask now than guess wrong and have to redo work later.
 
 RFIs are tracked as **Tasks** in the **Pre-Construction Stage** (and sometimes **Construction Stage**) of your project.
 
-📸 [Screenshot placeholder: RFI task in Pre-Construction stage]
+:::note Screenshot needed
+Pre-Construction or Construction stage showing an RFI task in the task list would be helpful here.
+:::
 
 ---
 
@@ -42,7 +44,7 @@ RFIs are tracked as **Tasks** in the **Pre-Construction Stage** (and sometimes *
    - **Type:** Task
 4. Save
 
-📸 [Screenshot placeholder: Creating a new task with fields highlighted]
+![Task creation form with required fields](/img/projects/creating-editing/16-required-fields.png)
 
 ### 2. Document the Question
 

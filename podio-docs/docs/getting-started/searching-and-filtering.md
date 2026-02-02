@@ -20,7 +20,9 @@ The search bar is at the top of every page.
 - **Partial matches work** — "ander" will find "MD Anderson"
 - **Search finds everything** — projects, tasks, contacts, comments
 
-> 📸 **[Screenshot placeholder: Search bar with example results]**
+:::note Screenshot needed
+Search bar with example results showing dropdown search results
+:::
 
 ## Using Filters
 
@@ -46,7 +48,7 @@ Filters help you narrow down lists in any app.
 
 Now you only see your active projects.
 
-> 📸 **[Screenshot placeholder: Filter panel with example settings]**
+![Filter panel with example settings](/img/projects/list-views/02-filter-sidebar-stages.png)
 
 ### Saving Filters (Views)
 

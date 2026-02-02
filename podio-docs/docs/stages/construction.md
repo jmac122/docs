@@ -59,7 +59,9 @@ The actual scope of work.
 
 **Why it matters:** This is what you're getting paid for. Execute it right.
 
-📸 [Screenshot placeholder: Division-specific construction tasks]
+:::note Screenshot needed
+Division-specific construction tasks - Construction tasks filtered by division (e.g., Concrete tasks)
+:::
 
 ---
 
@@ -83,7 +85,9 @@ Track what happened each day.
 
 **Tip:** Don't skip daily reports. Do them at the end of each day while it's fresh. Trying to recreate them a week later is painful and inaccurate.
 
-📸 [Screenshot placeholder: Daily report task or template]
+:::note Screenshot needed
+Daily report task or template - Task for daily reporting
+:::
 
 ---
 
@@ -115,7 +119,9 @@ Make sure the work meets standards.
 
 **Why it matters:** Catching quality issues early is cheap. Catching them after the GC rejects the work is expensive.
 
-📸 [Screenshot placeholder: Quality control inspection task]
+:::note Screenshot needed
+Quality control inspection task - QC inspection task detail
+:::
 
 ---
 
@@ -205,7 +211,9 @@ Some Construction tasks happen repeatedly:
 
 [NEEDS VERIFICATION: How exactly do recurring tasks work? Are they duplicated weekly via GlobiFlow automation?]
 
-📸 [Screenshot placeholder: Recurring task showing schedule/frequency]
+:::note Screenshot needed
+Recurring task showing schedule/frequency - Task showing recurring schedule settings (if applicable)
+:::
 
 ---
 
@@ -219,7 +227,9 @@ Some Construction tasks depend on others.
 
 Podio tracks these dependencies.
 
-📸 [Screenshot placeholder: Construction task showing dependency chain]
+:::note Screenshot needed
+Construction task showing dependency chain - Task with multiple dependencies visible
+:::
 
 ---
 
@@ -259,7 +269,7 @@ Construction is "done" when:
 
 **Note:** You might still have punch list items (minor fixes). That's normal. Handle them in Demobilization.
 
-📸 [Screenshot placeholder: Construction stage showing high completion % and few open tasks]
+![Construction stage showing completion metrics](/img/stages/const-stage-detail-metrics.png)
 
 ---
 

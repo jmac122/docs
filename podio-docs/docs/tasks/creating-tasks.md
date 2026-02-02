@@ -18,7 +18,7 @@ You should manually create a task when:
 1. Open the **Tasks** app from your Podio workspace
 2. Click **"Add new task"** (usually a + button or "New" button)
 
-📸 [Screenshot placeholder: Tasks app with Add New button highlighted]
+![Add task button in Tasks app](/img/tasks/list-views/05-add-task-button.png)
 
 ### Step 2: Fill Out Required Fields
 
@@ -79,7 +79,9 @@ You should manually create a task when:
 **Attachments** (Files)
 - Upload relevant docs, photos, contracts, etc.
 
-📸 [Screenshot placeholder: Task creation form showing optional fields]
+:::note Screenshot needed
+Task creation form showing all optional/advanced fields would be helpful here.
+:::
 
 ### Step 4: Save
 Click **Save** or **Create** button.

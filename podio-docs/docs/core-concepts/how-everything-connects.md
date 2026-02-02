@@ -6,8 +6,6 @@ This doc explains the **relationships** between PSS Podio apps—how they link t
 
 ## The Hub-and-Spoke Model
 
-📸 [Screenshot placeholder: Visual diagram showing Projects in center with Stages, Tasks, Safety, Contacts radiating out]
-
 Think of your Podio workspace like a wheel:
 
 - **Projects** = The hub (center)
@@ -82,7 +80,7 @@ This means you can navigate in either direction:
 - Click Linked Project → jump to the project
 - Click Dependencies → see prerequisite tasks
 
-📸 [Screenshot placeholder: Task item showing clickable relationship fields]
+![Task detail page showing relationship fields like Linked Stage and Project](/img/tasks/detail-page/01-task-detail-full-page.png)
 
 ---
 

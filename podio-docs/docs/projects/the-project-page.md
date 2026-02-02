@@ -2,7 +2,7 @@
 
 Every project in Podio is your central hub for that job. Think of it like the project's brain — everything connects back to it.
 
-📸 [Screenshot placeholder: Full project page view showing all fields and sections]
+![Full project page view showing all fields and sections](/img/projects/detail-page/07-full-project-page.png)
 
 ---
 
@@ -33,7 +33,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** Yes, but only when first creating the project. Don't change it later — it'll mess up references.
 
-📸 [Screenshot placeholder: Job # field highlighted]
+![Job # field highlighted](/img/projects/detail-page/08-job-number-field.png)
 
 ---
 
@@ -73,7 +73,9 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** Yes. Use the date picker to set start and end dates.
 
-📸 [Screenshot placeholder: LOI/Contract Date range picker]
+:::note Screenshot needed
+LOI/Contract Date range picker showing date selection UI
+:::
 
 ---
 
@@ -93,7 +95,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** Yes. Click to search and select from your Contacts app. You can link multiple people.
 
-📸 [Screenshot placeholder: Customer/GC relationship picker showing linked contacts]
+![Customer/GC relationship picker showing linked contacts](/img/projects/detail-page/11-customer-gc-field.png)
 
 ---
 
@@ -142,7 +144,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** Yes. Pick from the user dropdown.
 
-📸 [Screenshot placeholder: Team member fields (PM, OC, FOCS, Foreman) with dropdown selectors]
+![Team member fields (PM, OC, FOCS, Foreman) with dropdown selectors](/img/projects/detail-page/09-team-member-fields.png)
 
 ---
 
@@ -245,7 +247,9 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** Yes, but be careful — changing this after tasks are created won't retroactively change existing tasks.
 
-📸 [Screenshot placeholder: Division dropdown showing Concrete, Drywall, Other options]
+:::note Screenshot needed
+Division dropdown showing Concrete, Drywall, Other options
+:::
 
 ---
 

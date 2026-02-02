@@ -56,7 +56,7 @@ This changes based on what you're doing:
 
 ---
 
-> 📸 **[Screenshot placeholder: Main Podio interface with sidebar, top bar, and content area labeled]**
+![Main Podio interface with sidebar, top bar, and content area labeled](/img/core-concepts/05-interface-layout.jpg)
 
 ---
 

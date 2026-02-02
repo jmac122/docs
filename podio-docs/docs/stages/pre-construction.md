@@ -80,7 +80,9 @@ Get legal approval to work.
 
 **Why it matters:** You can't legally start work without these. Period.
 
-📸 [Screenshot placeholder: Safety & Compliance tasks showing 811, Badging, SSSP]
+:::note Screenshot needed
+Safety & Compliance tasks showing 811, Badging, SSSP - task list filtered to show safety-related Pre-Con tasks
+:::
 
 ---
 
@@ -98,7 +100,9 @@ Submit your plans, materials, and methods to the GC for approval.
 
 **Typical timeline:** 1-2 weeks (depends on GC responsiveness)
 
-📸 [Screenshot placeholder: Submittal-related tasks in Pre-Con]
+:::note Screenshot needed
+Submittal-related tasks in Pre-Con - task list filtered to show submittal tasks
+:::
 
 ---
 
@@ -114,7 +118,9 @@ Ask questions when the plans or scope aren't clear.
 
 **Why it matters:** Don't guess. If something's unclear, ask. Better to delay 3 days for an RFI answer than to do it wrong and redo the work.
 
-📸 [Screenshot placeholder: RFI task with example RFI question]
+:::note Screenshot needed
+RFI task with example RFI question - single RFI task detail page
+:::
 
 ---
 
@@ -188,7 +194,9 @@ You can't order materials until submittals are approved. Podio tracks this autom
 
 When "Submittal approved" is marked Complete → "Order rebar" auto-advances to In Progress.
 
-📸 [Screenshot placeholder: Dependent task waiting for prerequisite to complete]
+:::note Screenshot needed
+Dependent task waiting for prerequisite to complete - task with Pending status showing Dependencies field
+:::
 
 [Read more: Understanding Task Dependencies](../../sops/PSP-000.1-task-dependencies.md) [NEEDS VERIFICATION: Does this SOP exist?]
 
@@ -234,7 +242,7 @@ Pre-Con is "done" when:
 
 **Check your tasks:** If all Pre-Con tasks are Complete (or the few remaining won't block Mobilization), you're ready to advance.
 
-📸 [Screenshot placeholder: Pre-Construction stage showing high completion % and low Open Issues count]
+![Pre-Construction stage showing completion metrics](/img/stages/precon-stage-detail-metrics.png)
 
 ---
 
@@ -303,7 +311,9 @@ When you hit a blocker, add a note to the task:
 
 This creates a paper trail and helps the next person understand what's happening.
 
-📸 [Screenshot placeholder: Task with notes showing status updates]
+:::note Screenshot needed
+Task with notes showing status updates - task detail showing activity/notes section with updates
+:::
 
 ---
 

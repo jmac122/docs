@@ -14,9 +14,9 @@ The **Contacts** app stores information about General Contractors (GCs), subcont
 ### Step 1: Open the Contacts App
 
 1. In Podio, click on the **Precision Projects** workspace (top navigation)
-2. Find and click the **Contacts** app
+2. Find and click the **Contacts** app (Master Database)
 
-📸 [Screenshot placeholder: Contacts app in workspace list]
+![Master Database (Contacts) list view](/img/contacts/01-master-database-list.png)
 
 ### Step 2: Create the Contact
 
@@ -34,7 +34,7 @@ The **Contacts** app stores information about General Contractors (GCs), subcont
 - **Address:** Office or site address if relevant
 - **Notes:** Anything helpful (e.g., "Prefers text over email", "Handles all RFI responses")
 
-📸 [Screenshot placeholder: Contact form with fields filled in]
+![Contact detail page showing fields](/img/contacts/02-contact-detail-annotated.png)
 
 ### Step 3: Save
 

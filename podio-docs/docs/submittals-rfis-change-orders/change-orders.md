@@ -19,7 +19,7 @@ A Change Order Request (COR) is how you formally ask the General Contractor (GC)
 
 Change Order Requests are tracked as **Tasks**, usually in the **Construction Stage** (but can appear in any stage where extra work comes up).
 
-📸 [Screenshot placeholder: Change Order task in task list]
+![Task list with status column](/img/tasks/list-views/04-tasks-status-column.png)
 
 ---
 
@@ -38,7 +38,7 @@ Change Order Requests are tracked as **Tasks**, usually in the **Construction St
    - **Due Date:** When you need a response (give them reasonable time)
 5. Click **Save**
 
-📸 [Screenshot placeholder: New task creation with COR fields filled]
+![Add task button](/img/tasks/list-views/05-add-task-button.png)
 
 ### Step 2: Document the Change
 
@@ -74,7 +74,9 @@ Upload to the **Attachments** field:
 
 More documentation = stronger case for approval.
 
-📸 [Screenshot placeholder: Attachments section with files uploaded]
+:::note Screenshot needed
+Task detail page with Attachments section showing uploaded files would be helpful here.
+:::
 
 ### Step 4: Track the Approval Process
 

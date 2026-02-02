@@ -22,7 +22,7 @@ An item is **one entry** in an app.
 
 When you create a new project, you're creating one item in the Projects app.
 
-📸 [Screenshot placeholder: A Projects app showing several project items in a list]
+![Projects app showing a list of project items](/img/projects/list-views/01-projects-list-all.png)
 
 ---
 

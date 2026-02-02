@@ -63,7 +63,9 @@ Get the physical job site ready.
 
 **Why it matters:** A well-organized site is safer and more efficient.
 
-📸 [Screenshot placeholder: Site setup task examples]
+:::note Screenshot needed
+Site setup task examples - tasks related to site setup in Mobilization
+:::
 
 ---
 
@@ -93,7 +95,9 @@ Make sure the right people are assigned and they know the plan.
 
 **Why it matters:** The crew can't execute what they don't understand. Brief them thoroughly.
 
-📸 [Screenshot placeholder: Crew briefing checklist task]
+:::note Screenshot needed
+Crew briefing checklist task - specific task example for crew briefing
+:::
 
 ---
 
@@ -124,7 +128,9 @@ Get materials delivered and organized.
 
 **Why it matters:** Having materials on-site (and in the right spot) prevents delays on day 1 of construction.
 
-📸 [Screenshot placeholder: Material staging area marked on site plan]
+:::note Screenshot needed
+Material staging area marked on site plan - generic placeholder or actual site plan image
+:::
 
 ---
 
@@ -167,7 +173,9 @@ Some Mobilization tasks depend on Pre-Con tasks being done first.
 
 Podio tracks these dependencies automatically.
 
-📸 [Screenshot placeholder: Mobilization task showing dependency on completed Pre-Con task]
+:::note Screenshot needed
+Mobilization task showing dependency on completed Pre-Con task - Mob task with Dependencies field pointing to completed Pre-Con task
+:::
 
 ---
 
@@ -208,7 +216,7 @@ Mobilization is "done" when:
 
 **Check your tasks:** If all Mobilization tasks are Complete (or nearly complete), you're ready to advance to Construction.
 
-📸 [Screenshot placeholder: Mobilization stage showing high completion % and low Open Issues]
+![Mobilization stage showing completion metrics](/img/stages/mob-stage-detail-metrics.png)
 
 ---
 
@@ -252,7 +260,9 @@ Mobilization is "done" when:
 
 **Fix:** Plan material staging areas ahead of time. Mark them on a site plan and share with delivery drivers.
 
-📸 [Screenshot placeholder: Site plan with staging areas marked]
+:::note Screenshot needed
+Site plan with staging areas marked - sample site plan or placeholder for customer-specific image
+:::
 
 ---
 

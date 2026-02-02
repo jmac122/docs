@@ -6,7 +6,7 @@ A view is a **saved way of looking at your data**. Same app, different lens.
 
 Think of it like this: Your Tasks app might have 500 tasks across all projects. A view lets you see **only** the tasks that matter to you right now.
 
-📸 [Screenshot placeholder: Dropdown showing different saved views in an app]
+![Projects app showing saved views in the sidebar](/img/projects-app-list.png)
 
 ---
 
@@ -80,7 +80,7 @@ Views can also control **order** and **grouping**:
 - Projects grouped by Division
 - Tasks grouped by Responsible
 
-📸 [Screenshot placeholder: Tasks view grouped by project, showing clusters of related tasks]
+![Tasks view showing tasks filtered/grouped by project](/img/tasks/list-views/03-tasks-filtered-by-project.png)
 
 ---
 
@@ -113,7 +113,7 @@ Because apps are connected, you can filter based on **related items**:
 
 This is powerful. You're not just filtering by the item's own fields—you're filtering by what it's connected to.
 
-📸 [Screenshot placeholder: Filter dialog showing relationship filter options]
+![Filter sidebar showing filter options including stages](/img/projects/list-views/02-filter-sidebar-stages.png)
 
 ---
 

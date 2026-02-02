@@ -37,7 +37,9 @@ Click the column headers to sort:
 
 ### Use the Search Box
 
-📸 [Screenshot placeholder: Podio search box at top of screen]
+:::note Screenshot needed
+Podio global search box at top of screen
+:::
 
 At the top of Podio, there's a search box.
 
@@ -105,7 +107,9 @@ Working only on Concrete jobs? Or Drywall?
 2. Select **Concrete**, **Drywall**, or **Other**
 3. List shows only projects in that division
 
-📸 [Screenshot placeholder: Division filter selected showing only Concrete projects]
+:::note Screenshot needed
+Division filter selected showing only Concrete projects
+:::
 
 ---
 
@@ -134,7 +138,9 @@ You can stack filters to narrow results:
 
 Result: Only active construction concrete jobs managed by John.
 
-📸 [Screenshot placeholder: Multiple filters applied showing narrowed results]
+:::note Screenshot needed
+Multiple filters applied showing narrowed results
+:::
 
 **Tip:** Clear filters by clicking the X next to each one, or click "Clear all filters" at the top.
 

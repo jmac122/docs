@@ -44,7 +44,9 @@ Use this if you're looking at the contact and want to link them to a project.
 5. Select the project from the dropdown
 6. Save
 
-📸 [Screenshot placeholder: Contact card with Linked Projects field]
+:::note Screenshot needed
+Contact detail page with "Linked Projects" relationship field visible would be helpful here. The existing contact screenshots show the Customer/GC field from the project side.
+:::
 
 ---
 

@@ -6,7 +6,7 @@ This doc walks through each PSS Podio app—what it does, what's in it, and how 
 
 ## 1. Projects App (The Hub)
 
-📸 [Screenshot placeholder: Projects app showing a list of active projects]
+![Projects app showing a list of active projects](/img/projects/list-views/01-projects-list-all.png)
 
 ### What It Does
 The Projects app is your **central dashboard**. Every job lives here. It's the starting point for everything.
@@ -60,7 +60,7 @@ The Projects app is your **central dashboard**. Every job lives here. It's the s
 
 ## 2. Stages App
 
-📸 [Screenshot placeholder: The 5 stages for a project, showing completion percentages]
+![The 5 stages for a project showing completion percentages](/img/projects/detail-page/13-linked-stages.png)
 
 ### What It Does
 Breaks each project into **5 phases**. Stages help you track progress and know what's active.
@@ -100,7 +100,7 @@ You **don't create stages manually**. When you create a project, automations cre
 
 ## 3. Tasks App
 
-📸 [Screenshot placeholder: Task list showing different statuses with color indicators]
+![Task list showing different statuses with color indicators](/img/tasks/list-views/04-tasks-status-column.png)
 
 ### What It Does
 Holds every **individual action item** across all projects. This is where day-to-day work gets tracked.
@@ -154,7 +154,9 @@ Some tasks you'll create manually—ad-hoc work that wasn't templated.
 
 ## 4. Safety & Compliance App
 
-📸 [Screenshot placeholder: Safety record showing compliance types and linked tasks]
+:::note Screenshot needed
+A Safety & Compliance detail page screenshot showing compliance types and linked tasks is needed here. Check the Safety & Compliance app for a good example record.
+:::
 
 ### What It Does
 Tracks **safety-related compliance** items that span multiple stages of a project.
@@ -189,7 +191,7 @@ A Safety & Compliance record is **auto-created** when you create a project.
 
 ## 5. Contacts App
 
-📸 [Screenshot placeholder: Contact record showing name, company, and linked projects]
+![Contact record showing name, company, and linked projects](/img/contacts/02-contact-detail-annotated.png)
 
 ### What It Does
 Stores **GC and customer contact information**. Reusable across multiple projects.
@@ -241,7 +243,9 @@ When a stage becomes "Active," GlobiFlow automations:
 4. Create any subtasks
 5. Set up dependencies between tasks
 
-📸 [Screenshot placeholder: Task Template showing how it maps to division and stage]
+:::note Screenshot needed
+A Task Template detail page screenshot showing Division, Stage, and task info fields is needed here. Check the Task Templates app for a good example.
+:::
 
 ---
 

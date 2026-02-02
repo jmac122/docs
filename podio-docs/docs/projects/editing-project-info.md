@@ -23,7 +23,7 @@ Click on the project to open it.
 
 You'll see the full project page with all fields.
 
-📸 [Screenshot placeholder: Full project page view]
+![Full project page view](/img/projects/detail-page/07-full-project-page.png)
 
 ---
 
@@ -38,7 +38,9 @@ You'll see the full project page with all fields.
 **If you can edit directly:**
 - Just click into any field to change it
 
-📸 [Screenshot placeholder: Project in edit mode with editable fields highlighted]
+:::note Screenshot needed
+Project in edit mode with editable fields highlighted
+:::
 
 ---
 
@@ -65,7 +67,9 @@ These fields can be updated without breaking anything:
 - **LOI/Contract Date** - Adjust dates
 - **Documents & Logs** - Add or remove files
 
-📸 [Screenshot placeholder: Common editable fields highlighted]
+:::note Screenshot needed
+Common editable fields highlighted
+:::
 
 ---
 
@@ -100,7 +104,9 @@ These fields CAN be edited, but be careful:
 
 **Better option:** If you're deep into the project, leave it as-is or create a new project with the correct division.
 
-📸 [Screenshot placeholder: Division field with warning icon]
+:::note Screenshot needed
+Division field with warning icon about not changing after tasks created
+:::
 
 ---
 
@@ -160,7 +166,9 @@ After editing:
 - New PM gets access to the project
 - [NEEDS VERIFICATION: Do existing tasks auto-reassign to new PM, or do you have to manually reassign them?]
 
-📸 [Screenshot placeholder: Project Manager dropdown with new PM being selected]
+:::note Screenshot needed
+Project Manager dropdown with new PM being selected
+:::
 
 ---
 
@@ -229,7 +237,7 @@ Same process as changing PM:
 2. Select the new person from the dropdown
 3. Save
 
-📸 [Screenshot placeholder: Team member fields with dropdowns open]
+![Team member fields with dropdowns open](/img/projects/creating-editing/17-team-member-dropdowns.png)
 
 ---
 

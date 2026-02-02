@@ -22,7 +22,9 @@ Every project follows this path:
 
 You move through them in order. You can't skip stages.
 
-📸 [Screenshot placeholder: Visual flowchart showing 5 stages in sequence]
+:::note Screenshot needed
+Visual flowchart showing 5 stages in sequence - custom diagram needed
+:::
 
 ---
 
@@ -176,7 +178,7 @@ When you're ready to move to the next stage:
    - Open Issues count
    - Stage-specific notes
 
-📸 [Screenshot placeholder: Stage detail page showing tasks and completion percentage]
+![Stage detail page showing tasks and completion metrics](/img/stages/stage-detail-full.png)
 
 ---
 
@@ -192,7 +194,7 @@ Shows how much of the stage is done. Calculated automatically based on completed
 - You've completed 30 tasks
 - Tasks Complete % = 65%
 
-📸 [Screenshot placeholder: Stage page showing Tasks Complete % field]
+![Stage page showing Tasks Complete % field](/img/stages/stage-tasks-complete-pct.png)
 
 ---
 
@@ -224,7 +226,7 @@ Free-text field for any notes specific to this stage.
 - Lessons learned
 - Anything future-you or the next person needs to know
 
-📸 [Screenshot placeholder: Stage Specific Notes field with example text]
+![Stage Specific Notes field with example text](/img/stages/stage-notes-field.png)
 
 ---
 

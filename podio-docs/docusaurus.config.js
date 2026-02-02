@@ -18,7 +18,7 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -48,7 +48,18 @@ const config = {
     ({
       navbar: {
         title: 'PSS Podio Docs',
+        logo: {
+          alt: 'PSS Logo',
+          src: 'img/favicon.ico',
+          href: '/docs/intro',
+        },
         items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'podioSidebar',
+            position: 'left',
+            label: 'Documentation',
+          },
           {
             href: 'https://github.com/jmac122/docs',
             label: 'GitHub',

@@ -39,7 +39,9 @@ Click into a stage to see:
 - **Open Issues** - count of incomplete tasks in that stage
 - **Task Overview** - list of all tasks for that stage
 
-📸 [Screenshot placeholder: Stage detail page showing task completion percentage]
+:::note Screenshot needed
+Stage detail page showing tasks complete percentage and open issues count would be helpful here.
+:::
 
 ## Understanding Stage Progress
 

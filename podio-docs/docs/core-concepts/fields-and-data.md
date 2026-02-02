@@ -4,7 +4,7 @@
 
 A field is **one piece of information** about an item. If an item is like a row in a spreadsheet, fields are the columns.
 
-📸 [Screenshot placeholder: A project item open showing various fields like Job Name, Company, etc.]
+![Project detail page showing various fields](/img/projects/detail-page/07-full-project-page.png)
 
 ---
 
@@ -88,7 +88,7 @@ Some fields **compute themselves**. You don't fill them in—Podio figures them 
 | Tasks Complete % | Stages | Percentage of complete tasks |
 | Open Issues | Stages | Count of incomplete tasks |
 
-📸 [Screenshot placeholder: A calculated field showing the formula result]
+![Calculated fields showing Progress % and Open Tasks](/img/projects/detail-page/14-progress-tasks-count.png)
 
 ---
 

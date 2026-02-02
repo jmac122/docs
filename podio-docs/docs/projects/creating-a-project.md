@@ -11,7 +11,7 @@ When you win a new job, you need to create a project in Podio. This kicks off th
 
 ### 1. Open the Projects App
 
-📸 [Screenshot placeholder: Podio workspace showing Projects app tile]
+![Podio workspace showing Projects app tile](/img/getting-started/01-workspace-home.jpg)
 
 - Log into Podio
 - Go to the **Precision Projects** workspace
@@ -21,7 +21,7 @@ When you win a new job, you need to create a project in Podio. This kicks off th
 
 ### 2. Click "Add New Item"
 
-📸 [Screenshot placeholder: Projects app with "Add new item" button highlighted]
+![Projects app with "Add new item" button highlighted](/img/projects/list-views/06-add-project-button.png)
 
 - Look for the "+ Add new" button (usually top-right)
 - Click it
@@ -84,7 +84,7 @@ Fill in what you know:
 - **LOI/Contract Date** - When was the contract signed? (Add date range if you have start/end)
 - **Scopes** - Check all that apply (Earthwork, Utilities, Foundations, etc.)
 
-📸 [Screenshot placeholder: Basic job detail fields filled in]
+![Basic job detail fields filled in](/img/projects/creating-editing/19-form-middle-section.png)
 
 ---
 
@@ -98,7 +98,7 @@ Click **Customer / GC** to search and select existing contacts from your Contact
 
 **Tip:** Use Option 2 if the contact already exists — it keeps info synced and you get their full email/phone/title.
 
-📸 [Screenshot placeholder: Customer/GC relationship picker]
+![Customer/GC relationship picker](/img/projects/creating-editing/18-customer-gc-picker.png)
 
 ---
 
@@ -167,7 +167,9 @@ Because you set the stage to "Pre-Construction Active", tasks for that stage sta
 
 **Wait 2-3 minutes.** Then refresh the project page.
 
-📸 [Screenshot placeholder: Pre-Construction stage showing tasks being created]
+:::note Screenshot needed
+Pre-Construction stage showing tasks being created
+:::
 
 ### ✅ You'll Get a Notification
 [NEEDS VERIFICATION: Does Podio notify the PM or creator when stages/tasks are created?]
@@ -184,7 +186,7 @@ Go back to the project page and make sure:
 4. Team members are assigned correctly
 5. Division is correct (this can't easily be changed later without recreating tasks)
 
-📸 [Screenshot placeholder: Completed project page with all sections filled in and stages created]
+![Completed project page with all sections filled in and stages created](/img/projects/detail-page/07-full-project-page.png)
 
 ---
 
