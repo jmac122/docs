@@ -8,14 +8,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://jmac122.github.io',
+  url: 'https://docs.precisionsiteservices.com',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/docs/',
+  baseUrl: '/podio/',
 
-  // GitHub pages deployment config.
-  organizationName: 'jmac122',
-  projectName: 'docs',
-  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
@@ -51,7 +47,7 @@ const config = {
         logo: {
           alt: 'PSS Logo',
           src: 'img/favicon.ico',
-          href: '/docs/intro',
+          href: '/podio/',
         },
         items: [
           {
