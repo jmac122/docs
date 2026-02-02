@@ -8,7 +8,7 @@ You've got dozens (or hundreds) of projects in Podio. Here's how to find the one
 
 ### Open the Projects App
 
-![Podio workspace with Projects app highlighted](/img/getting-started/01-workspace-home.jpg)
+![Podio workspace with Projects app highlighted](/img/getting-started/01-workspace-home.png)
 
 - Go to **Precision Projects** workspace
 - Click **Projects**
