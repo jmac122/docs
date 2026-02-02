@@ -154,16 +154,6 @@ If you use the same filters repeatedly, save them as a view.
 
 ---
 
-## Method 9: Use Recent Projects
-
-Podio remembers what you've recently viewed.
-
-Look for a **Recent** or **History** section [NEEDS VERIFICATION: Where does Podio show recently accessed items?]
-
-Click a recently viewed project to jump back to it.
-
----
-
 ## Tips for Faster Searching
 
 ### Keep Job Names Consistent
