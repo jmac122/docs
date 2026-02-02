@@ -37,9 +37,7 @@ Click the column headers to sort:
 
 ### Use the Search Box
 
-:::note Screenshot needed
-Podio global search box at top of screen
-:::
+![Search bar with results showing projects](/img/interface/03-search-with-results-annotated.png)
 
 At the top of Podio, there's a search box.
 
