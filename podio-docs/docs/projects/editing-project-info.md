@@ -27,20 +27,9 @@ You'll see the full project page with all fields.
 
 ---
 
-### 3. Click "Edit" or Click Into Fields
+### 3. Click Into Fields
 
-[NEEDS VERIFICATION: Does Podio require clicking an "Edit" button first, or can you click directly into fields?]
-
-**If there's an Edit button:**
-- Click **Edit** (usually top-right or bottom of the page)
-- Fields become editable
-
-**If you can edit directly:**
-- Just click into any field to change it
-
-:::note Screenshot needed
-Project in edit mode with editable fields highlighted
-:::
+Podio doesn't have an "edit mode" — just click directly into any field to change it. Your changes save automatically.
 
 ---
 
