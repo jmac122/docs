@@ -154,9 +154,7 @@ Some tasks you'll create manually—ad-hoc work that wasn't templated.
 
 ## 4. Safety & Compliance App
 
-:::note Screenshot needed
-A Safety & Compliance detail page screenshot showing compliance types and linked tasks is needed here. Check the Safety & Compliance app for a good example record.
-:::
+![Safety & Compliance detail page showing compliance types and linked tasks](/img/safety/safety-compliance-detail.png)
 
 ### What It Does
 Tracks **safety-related compliance** items that span multiple stages of a project.
