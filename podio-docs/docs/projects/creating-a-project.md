@@ -11,7 +11,7 @@ When you win a new job, you need to create a project in Podio. This kicks off th
 
 ### 1. Open the Projects App
 
-![Podio workspace showing Projects app tile](/img/getting-started/01-workspace-home.jpg)
+![Podio workspace showing Projects app in the app bar](/img/getting-started/01-workspace-home.png)
 
 - Log into Podio
 - Go to the **Precision Projects** workspace

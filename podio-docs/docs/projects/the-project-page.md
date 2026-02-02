@@ -73,9 +73,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Can you edit it?** Yes. Use the date picker to set start and end dates.
 
-:::note Screenshot needed
-LOI/Contract Date range picker showing date selection UI
-:::
+![LOI/Contract Date field with date picker showing calendar](/img/projects/fields/loi-contract-date-annotated.png)
 
 ---
 
@@ -247,9 +245,7 @@ LOI/Contract Date range picker showing date selection UI
 
 **Can you edit it?** Yes, but be careful — changing this after tasks are created won't retroactively change existing tasks.
 
-:::note Screenshot needed
-Division dropdown showing Concrete, Drywall, Other options
-:::
+![Division field showing Concrete and Drywall options](/img/projects/fields/division-field-annotated.png)
 
 ---
 
