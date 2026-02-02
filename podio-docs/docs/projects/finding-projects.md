@@ -105,9 +105,7 @@ Working only on Concrete jobs? Or Drywall?
 2. Select **Concrete**, **Drywall**, or **Other**
 3. List shows only projects in that division
 
-:::note Screenshot needed
-Division filter selected showing only Concrete projects
-:::
+![View by Division filter showing Concrete selected](/img/projects/list-views/filter-by-division-annotated.png)
 
 ---
 
