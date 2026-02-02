@@ -4,59 +4,85 @@ When you log in, here's what you'll see:
 
 ## Main Areas
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  [Logo]     Search Bar                    [🔔] [Profile] │
-├──────────┬──────────────────────────────────────────────┤
-│          │                                              │
-│  Sidebar │           Main Content Area                  │
-│          │                                              │
-│  - Home  │   (Apps, items, activity feed, etc.)        │
-│  - Apps  │                                              │
-│  - Tasks │                                              │
-│          │                                              │
-└──────────┴──────────────────────────────────────────────┘
-```
+![Podio workspace showing the app bar and main content area](/img/interface/01-workspace-overview-annotated.png)
 
-## The Sidebar (Left Side)
+The interface has two main sections:
 
-This is your main navigation:
+### The App Bar (Top)
 
-| Icon/Link | What It Does |
-|-----------|--------------|
-| **Home** | Your activity feed - recent updates |
-| **Apps** | List of all apps (Projects, Tasks, etc.) |
-| **Tasks** | Quick view of tasks assigned to you |
-| **Calendar** | Tasks and events on a calendar |
+This horizontal bar shows all your workspace apps:
 
-## The Top Bar
+| App | What It Contains |
+|-----|------------------|
+| **Activity** | Recent updates and activity feed |
+| **Projects** | All jobs/projects |
+| **Stages** | Project phases (Pre-Construction, Mobilization, etc.) |
+| **Scopes** | Work scopes for projects |
+| **Tasks** | Individual to-dos and action items |
+| **Safety & Co...** | Safety and compliance tracking |
+| **Team Members** | Internal PSS employees |
+| **Master Database** | External contacts (GCs, vendors, subs) |
+| **Task Templates** | Template tasks for automations |
+| **Subtask Templates** | Template subtasks |
 
-- **Search** - Find anything (projects, tasks, contacts)
-- **🔔 Bell Icon** - Your notifications
-- **Profile Picture** - Settings, log out
+Click any app name to open it.
 
-## The Main Content Area
+### The Main Content Area
 
-This changes based on what you're doing:
-- Viewing an app → Shows list of items
-- Viewing an item → Shows all the details
-- Home → Shows activity feed
+This changes based on what you're viewing:
+- **Activity view** → Shows recent updates across all apps
+- **App list view** → Shows items in that app (with filters on the left)
+- **Item detail view** → Shows all fields and data for one item
+
+## The Top Navigation Bar
+
+The teal bar at the very top includes:
+- **Workspace name** ("Precision Projects")
+- **Connections** - See who's online
+- **Calendar** - View tasks and events
+- **Tasks** - Quick access to your tasks
+- **Search** - Find anything
+- **Profile** - Your account settings
+- **Notifications** - Bell icon for alerts
+- **Chat** - Messaging
+
+## App List Views
+
+When you click an app (like Projects), you'll see:
+
+![Projects list with filter sidebar and data table](/img/interface/02-projects-list-annotated.png)
+
+- **Left sidebar** - Views and filters to narrow down results
+- **Right area** - The list/table of items
+
+### The Filter Sidebar
+
+The sidebar lets you:
+- Switch between saved **Views** (All Projects, View by PM, etc.)
+- Filter by **Company**, **Stage**, **Scope**, and more
+- See counts next to each filter option
+
+## Search
+
+Click the search icon (🔍) in the top bar to find anything:
+
+![Search bar with results dropdown](/img/interface/03-search-with-results-annotated.png)
+
+- Type a job number, project name, person's name, etc.
+- Results show instantly as you type
+- Click a result to jump directly to it
 
 ## Quick Tips
 
 ### Getting Around
-- Click app names in the sidebar to jump to them
-- Use the back button (browser) to go back
-- Click the logo to go to your home/activity feed
+- Click app names in the **App Bar** to switch apps
+- Use browser back button to go back
+- Click "Precision Projects" to return to the Activity view
 
 ### Finding Things Fast
-- **Search bar** is your friend — type job numbers, names, anything
-- Use **filters** in apps to narrow down lists
-- **Star** important items to find them quickly
-
----
-
-![Main Podio interface with sidebar, top bar, and content area labeled](/img/core-concepts/05-interface-layout.jpg)
+- **Search** is your friend — type job numbers, names, anything
+- Use **filters** in the sidebar to narrow down lists
+- Save custom **Views** for quick access to filtered lists
 
 ---
 
