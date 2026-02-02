@@ -152,14 +152,20 @@ After editing:
 3. Select the new PM from the dropdown
 4. Save
 
-**How to change it:** Click the **Add/Remove** button next to the Project Manager field.
+**How to change it:** 
+1. Click the **Add/Remove** button next to the Project Manager field
+2. A dropdown will appear showing the current PM with an "x" next to their name
+3. Click the "x" to remove the current PM
+4. Either click a name from the list, or type a name and select it
+
+![Project Manager field with Add/Remove button highlighted](/img/projects/fields/pm-add-remove-annotated.png)
+
+![PM selection dropdown showing people list](/img/projects/fields/pm-selection-dropdown-annotated.png)
 
 **What happens:**
 - Tasks assigned to the old PM stay assigned to them
 - New PM gets access to the project
 - Existing tasks do NOT auto-reassign — you'll need to manually reassign them if needed
-
-![Project Manager field with Add/Remove button highlighted](/img/projects/fields/pm-add-remove-annotated.png)
 
 ---
 
