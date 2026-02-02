@@ -144,7 +144,13 @@ Result: Only active construction concrete jobs managed by John.
 
 If you use the same filters repeatedly, save them as a view.
 
-[NEEDS VERIFICATION: Does Podio allow saving custom views? If so, document the steps here.]
+![Save as dialog showing Create new view and Overwrite current view options](/img/projects/list-views/save-custom-view-annotated.png)
+
+1. Apply the filters you want
+2. Click **Save as...** next to "Unsaved view"
+3. Choose **Create new view** to make a new saved view
+4. Or choose **Overwrite current view** to update an existing view
+5. Your saved view will appear in the Views sidebar for quick access
 
 ---
 
