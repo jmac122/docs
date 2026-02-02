@@ -125,7 +125,7 @@ Task A (Independent)
 
 When you complete Task A, Task B automatically moves to "In Progress" and the responsible person gets notified.
 
-![Chain of dependent tasks showing status progression](/img/projects/detail-page/14-progress-tasks-count.png)
+![Task showing dependency chain in activity feed - status updates flow through](/img/tasks/dependencies/task-dependency-chain-annotated.png)
 
 ---
 
