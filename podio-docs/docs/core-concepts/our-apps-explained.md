@@ -60,7 +60,7 @@ The Projects app is your **central dashboard**. Every job lives here. It's the s
 
 ## 2. Stages App
 
-![The 5 stages for a project showing completion percentages](/img/projects/detail-page/13-linked-stages.png)
+![Stages app list view showing all stages across projects](/img/stages/stages-app-list-annotated.png)
 
 ### What It Does
 Breaks each project into **5 phases**. Stages help you track progress and know what's active.
