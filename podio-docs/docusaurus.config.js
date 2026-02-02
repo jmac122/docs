@@ -47,7 +47,7 @@ const config = {
         logo: {
           alt: 'PSS Logo',
           src: 'img/favicon.ico',
-          href: '/podio/',
+          href: '/',
         },
         items: [
           {
