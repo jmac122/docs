@@ -282,8 +282,7 @@ Any employee in the workspace can edit any project — there are no role-based r
 ### "I can't edit a field — it's grayed out"
 **Possible reasons:**
 - It's a calculated field (Job ID, Variance, Overall Progress, etc.)
-- You don't have permission [NEEDS VERIFICATION]
-- The project is locked or archived [NEEDS VERIFICATION]
+- You don't have permission
 
 **Fix:** If it should be editable, check with an admin.
 
