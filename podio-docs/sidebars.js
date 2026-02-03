@@ -46,6 +46,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Safety & Compliance',
+      items: [
+        'safety-compliance/overview',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Tasks',
       items: [
         'tasks/finding-your-tasks',
