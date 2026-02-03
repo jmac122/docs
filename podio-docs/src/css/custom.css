@@ -304,11 +304,13 @@ code {
 
 /* ===== TABLES ===== */
 table {
-  border-radius: 12px;
+  border-radius: 12px !important;
   overflow: hidden;
   border: 1px solid var(--ifm-toc-border-color);
-  width: 100%;
-  margin: 1.5rem auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  display: table !important;
+  margin: 1.5rem 0 !important;
 }
 
 th {
@@ -324,7 +326,12 @@ tr:nth-child(even) {
 }
 
 td, th {
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1rem !important;
+}
+
+/* Force table cells to expand */
+td:last-child, th:last-child {
+  width: 100%;
 }
 
 /* ===== LINKS ===== */
