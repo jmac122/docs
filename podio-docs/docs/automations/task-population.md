@@ -16,7 +16,7 @@ PSS Podio uses **automatic task population**: all tasks for all stages are creat
 2. The system automatically creates 5 **Stages** (but NO tasks yet)
 3. You're ready to start Pre-Construction work
 4. You change **Current Stage Status** to **"Pre-Construction Active"**
-5. **2-3 minutes later**, 40+ Pre-Construction tasks appear in that stage
+5. **2-3 minutes later**, all tasks for all stages appear (could be 100+ tasks total)
 6. Weeks later, you finish Pre-Con and change status to **"Mobilization Active"**
 7. **2-3 minutes later**, Mobilization tasks appear
 8. Repeat for each stage as the project progresses

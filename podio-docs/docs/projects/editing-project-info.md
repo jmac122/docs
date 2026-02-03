@@ -102,7 +102,7 @@ These fields CAN be edited, but be careful:
 ---
 
 ##### **Current Stage Status**
-**Why be careful:** This field triggers major automations. Changing it creates tasks for the new stage.
+**Why be careful:** This field is used for organization and visibility. All tasks already exist, but changing the active stage helps track progress.
 
 **Don't change this casually.** Only change it when you're actually ready to advance to the next stage.
 

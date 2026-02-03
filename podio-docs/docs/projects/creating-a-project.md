@@ -162,7 +162,7 @@ Within seconds, you'll see 5 linked stages appear:
 A blank Safety & Compliance record gets created and linked to your project.
 
 ### ✅ Pre-Construction Tasks Get Created
-Because you set the stage to "Pre-Construction Active", tasks for that stage start populating.
+All tasks for all stages are created automatically when the project is created.
 
 **Wait 2-3 minutes.** Then refresh the project page.
 

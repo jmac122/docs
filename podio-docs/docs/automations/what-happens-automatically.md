@@ -37,7 +37,7 @@ You don't have to manually set up the structure for every job. The framework is 
 
 **What happens automatically:**
 - The system looks up the **Task Templates** for that stage and your project's **Division** (Concrete, Drywall, or Other)
-- It creates all the tasks for that stage (could be 40+ tasks for Pre-Construction!)
+- All tasks for all stages are created at project creation (could be 100+ tasks total!)
 - It creates **subtasks** and links them to their parent tasks
 - It sets each task to the correct status (Independent tasks → In Progress, Dependent tasks → Pending)
 - It assigns tasks based on roles (PM, OC, FOCS, Foreman) from your Project fields

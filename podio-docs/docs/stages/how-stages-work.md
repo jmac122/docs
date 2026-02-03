@@ -45,7 +45,7 @@ Think of them like folders — each stage holds its own tasks, dates, and notes.
 Here's the magic:
 1. You set **Current Stage Status** to "[Stage Name] Active"
 2. Wait 2-3 minutes
-3. Podio creates all the tasks for that stage automatically
+3. Tasks for that stage are already created (all tasks are created when the project is created)
 4. Tasks appear in that stage's **Task Overview**
 
 **Managing the task volume:** Since all tasks are created at once, use filters to view only tasks for your current stage. This keeps things focused without overwhelming you.
@@ -152,10 +152,8 @@ When you're ready to move to the next stage:
 1. Open the project
 2. Change **Current Stage Status** to the next stage (e.g., "Mobilization Active")
 3. Save
-4. Wait 2-3 minutes
-5. Refresh → tasks for the new stage appear
 
-**IMPORTANT:** Only advance when you're actually ready. Advancing creates tasks — you can't easily undo it.
+Tasks for all stages already exist — changing the stage just updates which phase you're tracking as active.
 
 [Read more: Advancing to Next Stage](advancing-to-next-stage.md)
 
@@ -211,7 +209,7 @@ Use this to see how much work is left.
 ---
 
 ### Estimated/Actual Dates
-[NEEDS VERIFICATION: How are these dates used? Are they manually entered or calculated?]
+The actual dates are auto-filled from task completion dates. Estimated dates can be manually entered for planning.
 
 Track when the stage was supposed to start/finish vs. when it actually did.
 

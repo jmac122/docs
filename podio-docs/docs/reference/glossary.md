@@ -72,7 +72,7 @@ Wrapping up: cleanup, equipment return, punch list items, final inspections.
 **5. Retainage**
 Final billing and closeout: waiting for final payment, submitting closeout documents, project archive.
 
-Each stage has its own set of tasks that auto-populate when you activate that stage.
+Each stage has its own set of tasks. All tasks for all stages are created when the project is created.
 
 **Current Stage Status**
 The field in the Project that shows which stage is active right now (e.g., "Construction Active"). This helps with organization and visibility, but all tasks for all stages are created when the project is first created.
