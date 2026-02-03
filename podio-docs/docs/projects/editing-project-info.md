@@ -299,12 +299,9 @@ Any employee in the workspace can edit any project — there are no role-based r
 ---
 
 ### "I changed Division but tasks didn't update"
-**That's expected.** Changing Division doesn't retroactively change already-created tasks. It only affects future tasks.
+**That's expected.** Changing Division doesn't retroactively change already-created tasks.
 
-**Fix:** If you need the right tasks, you may need to:
-1. Manually delete incorrect tasks
-2. Recreate the project with the correct Division
-3. [NEEDS VERIFICATION: Can you manually trigger task creation from a different division template?]
+**Fix:** The only solution is to delete the project and recreate it with the correct Division. There is no other way.
 
 ---
 
