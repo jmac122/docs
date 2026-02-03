@@ -268,7 +268,7 @@ Deleted files cannot be recovered in Podio.
 
 ## Permissions & Who Can Edit
 
-[NEEDS VERIFICATION: Are there role-based permissions in Podio? Can anyone edit any project, or only assigned team members? Can a foreman edit budget fields, or only PMs/admins?]
+Any employee in the workspace can edit any project — there are no role-based restrictions on editing.
 
 **General rule:** If you can see the project, you can probably edit it. But use common sense:
 - Don't edit budget if you're not the PM
