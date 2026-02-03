@@ -431,6 +431,34 @@ article a:not(.button):not(.navbar__link):not(.menu__link):hover {
   color: #f97316;
 }
 
+/* ===== MERMAID DIAGRAMS ===== */
+.mermaid {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.mermaid:hover {
+  opacity: 0.9;
+}
+
+/* Add hint text above large diagrams */
+.mermaid-container {
+  position: relative;
+}
+
+.mermaid-hint {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0.5rem;
+}
+
+/* Make mermaid SVGs zoomable */
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 996px) {
   h1 {

@@ -26,6 +26,10 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    'docusaurus-plugin-image-zoom',
+  ],
+
   presets: [
     [
       'classic',
@@ -74,6 +78,13 @@ const config = {
       prism: {
         theme: require('prism-react-renderer').themes.github,
         darkTheme: require('prism-react-renderer').themes.dracula,
+      },
+      zoom: {
+        selector: '.markdown img, .mermaid svg',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)',
+        },
       },
     }),
 };
