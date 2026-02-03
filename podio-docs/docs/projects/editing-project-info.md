@@ -306,7 +306,7 @@ Any employee in the workspace can edit any project — there are no role-based r
 ---
 
 ### "I accidentally deleted a document — can I get it back?"
-[NEEDS VERIFICATION: Podio file recovery options?]
+No, you cannot recover deleted documents. You'll need to re-upload it. If you didn't originally upload the document, @ the person who did and ask them to re-upload it.
 
 **Best practice:** Don't delete files unless you're 100% sure. Rename them to "OLD - filename" if you're not sure instead of deleting.
 
