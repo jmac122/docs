@@ -304,7 +304,7 @@ Identify the blocker and escalate if needed.
 ### "Can I delete a stage?"
 No. And don't try. The 5 stages are core to how the system works.
 
-If a stage doesn't apply to your project [NEEDS VERIFICATION: Can certain stages be skipped for small projects?], you still need to activate it — just complete the tasks quickly or mark them N/A.
+If a stage doesn't apply to your project, you technically *can* skip it, but you shouldn't — follow the standard procedures and activate each stage in order, completing tasks quickly or marking them N/A if they don't apply.
 
 ---
 
