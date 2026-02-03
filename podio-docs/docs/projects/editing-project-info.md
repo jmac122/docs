@@ -255,14 +255,14 @@ Unless it's absolutely wrong and you're willing to deal with confusion, leave it
 
 ### ❌ Don't Delete Linked Stages
 The 5 stages are created automatically and should stay linked to the project. Don't unlink them.  
-[NEEDS VERIFICATION: Can you even unlink stages, or is the relationship locked?]
+You can unlink stages — they are not locked.
 
 ### ❌ Don't Advance Stage Status Unless Ready
 Changing Current Stage Status to "Construction Active" before you're actually ready will create a bunch of tasks you're not ready for. See [Advancing to Next Stage](../stages/advancing-to-next-stage.md).
 
 ### ❌ Don't Delete Documents Without Checking
 If someone uploaded a contract or plan, make sure you don't need it before deleting. Once deleted, it's gone.  
-[NEEDS VERIFICATION: Can deleted files be recovered in Podio?]
+Deleted files cannot be recovered in Podio.
 
 ---
 
