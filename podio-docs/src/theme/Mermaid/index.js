@@ -47,8 +47,8 @@ export default function Mermaid(props) {
               backgroundColor: 'white', 
               padding: '2rem', 
               borderRadius: '12px',
-              maxWidth: '95vw',
-              maxHeight: '95vh',
+              width: '95vw',
+              height: '90vh',
               overflow: 'auto',
             }}
             onClick={(e) => e.stopPropagation()}
@@ -80,7 +80,7 @@ export default function Mermaid(props) {
                 ✕ Close
               </button>
             </div>
-            <div style={{ minWidth: '800px', transform: 'scale(1.2)', transformOrigin: 'top left' }}>
+            <div style={{ minWidth: '1400px', transform: 'scale(1.5)', transformOrigin: 'top left', padding: '1rem' }}>
               <OriginalMermaid {...props} />
             </div>
           </div>
