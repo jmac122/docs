@@ -138,7 +138,7 @@ Tracked in **Safety & Compliance** app
 ## 📞 Need Help?
 
 - **Ask your PM or OC** - They know the system inside-out
-- **Check the docs** - Look in ~/clawd/docs/podio/ for detailed guides
+- **Check the docs** - Browse this documentation site for detailed guides
 - **Look at existing projects** - Copy what works
 
 ---

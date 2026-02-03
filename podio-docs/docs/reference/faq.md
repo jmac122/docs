@@ -249,10 +249,10 @@ Give it time—automations can take 2-5 minutes to run. If it's been longer:
 ---
 
 ### Where can I find more detailed guides?
-Check these folders:
-- **~/clawd/docs/podio/submittals-rfis-change-orders/**
-- **~/clawd/docs/podio/contacts/**
-- **~/clawd/docs/podio/reference/**
+Check these sections of this documentation:
+- [Submittals, RFIs & Change Orders](/submittals-rfis-change-orders/submittals)
+- [Contacts](/contacts/adding-contacts)
+- [Reference](/reference/glossary)
 
 And ask your OC for the official SOPs (PSP-101, PSP-102, etc.).
 
