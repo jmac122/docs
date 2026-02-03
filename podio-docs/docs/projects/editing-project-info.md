@@ -316,20 +316,20 @@ No, you cannot recover deleted documents. You'll need to re-upload it. If you di
 
 | Field | Can Edit? | Notes |
 |-------|-----------|-------|
-| Job # | Yes (caution) | Only change if wrong from the start |
+| Job # | ⚠️ Yes (caution) | Only change if wrong from the start |
 | Job Name | Yes | Safe anytime |
 | Company | Yes | Safe anytime |
 | Location | Yes | Safe anytime |
 | GC Contacts | Yes | Safe anytime |
 | Customer / GC | Yes | Safe anytime |
 | Scopes | Yes | Safe anytime |
-| Division | Yes (caution) | Won't change existing tasks |
+| Division | ⚠️ Yes (caution) | Won't change existing tasks |
 | Project Manager | Yes | Safe anytime |
 | OC, FOCS, Foreman | Yes | Safe anytime |
 | Project Budget | Yes | Safe anytime |
 | Contract Value | Yes | Safe anytime |
 | LOI/Contract Date | Yes | Safe anytime |
-| Current Stage Status | Yes (caution) | Triggers automations! |
+| Current Stage Status | ⚠️ Yes (caution) | Triggers automations! |
 | Documents & Logs | Yes | Safe to add/remove files |
 | Job ID | No | Calculated field |
 | Date Entered | No | Auto-set on creation |
