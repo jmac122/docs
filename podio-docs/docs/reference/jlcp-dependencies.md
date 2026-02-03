@@ -4,6 +4,18 @@ Visual diagrams showing how tasks flow and depend on each other.
 
 ---
 
+## Legend
+
+| Color | Meaning |
+|-------|---------|
+| 🟢 Green | Independent task (can start immediately) |
+| 🟡 Yellow | Dependent task (waiting on predecessor) |
+| 🔵 Blue | Automation task (runs automatically) |
+| 🟣 Purple | Cross-stage dependency |
+| 🟠 Orange | Recurring task |
+
+---
+
 ## Pre-Construction Dependencies
 
 This is the most complex stage with 44 tasks and multiple dependency chains.
@@ -111,18 +123,6 @@ flowchart TD
     style C4 fill:#FFA500
     style C5 fill:#FFA500
 ```
-
----
-
-## Legend
-
-| Color | Meaning |
-|-------|---------|
-| 🟢 Green | Independent task (can start immediately) |
-| 🟡 Yellow | Dependent task (waiting on predecessor) |
-| 🔵 Blue | Automation task (runs automatically) |
-| 🟣 Purple | Cross-stage dependency |
-| 🟠 Orange | Recurring task |
 
 ---
 
