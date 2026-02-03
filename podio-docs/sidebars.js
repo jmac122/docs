@@ -40,6 +40,8 @@ const sidebars = {
         'stages/pre-construction',
         'stages/mobilization',
         'stages/construction',
+        'stages/demobilization',
+        'stages/retainage',
       ],
     },
     {
