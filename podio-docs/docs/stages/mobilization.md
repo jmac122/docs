@@ -366,7 +366,6 @@ Before advancing to Construction, verify:
 Once Mobilization is done, you advance to **Construction** — the actual work begins.
 
 [Read more: Construction Stage](construction.md)  
-[Read more: Advancing to Next Stage](advancing-to-next-stage.md)
 
 ---
 
@@ -374,7 +373,6 @@ Once Mobilization is done, you advance to **Construction** — the actual work b
 - [How Stages Work](how-stages-work.md)
 - [Pre-Construction Stage](pre-construction.md)
 - [Construction Stage](construction.md)
-- [Advancing to Next Stage](advancing-to-next-stage.md)
 
 ---
 

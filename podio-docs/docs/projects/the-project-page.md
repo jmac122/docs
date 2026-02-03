@@ -184,7 +184,7 @@ Every project in Podio is your central hub for that job. Think of it like the pr
 
 **Why it matters:** **This is THE most important field.** Changing this field triggers automation to create tasks for the next stage.
 
-**Can you edit it?** Yes — but only change it when you're actually ready to move to the next stage. See [Advancing to Next Stage](../stages/advancing-to-next-stage.md) for details.
+**Can you edit it?** Yes — but only change it when you're actually ready to move to the next stage. 
 
 **How it works:**
 - Set to "Pre-Construction Active" when project starts

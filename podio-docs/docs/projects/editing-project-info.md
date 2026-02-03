@@ -106,7 +106,7 @@ These fields CAN be edited, but be careful:
 
 **Don't change this casually.** Only change it when you're actually ready to advance to the next stage.
 
-See [Advancing to Next Stage](../stages/advancing-to-next-stage.md) for full details.
+
 
 ---
 
@@ -258,7 +258,7 @@ The 5 stages are created automatically and should stay linked to the project. Do
 You can unlink stages — they are not locked.
 
 ### ❌ Don't Advance Stage Status Unless Ready
-Changing Current Stage Status to "Construction Active" before you're actually ready will create a bunch of tasks you're not ready for. See [Advancing to Next Stage](../stages/advancing-to-next-stage.md).
+Changing Current Stage Status to "Construction Active" before you're actually ready will create a bunch of tasks you're not ready for. 
 
 ### ❌ Don't Delete Documents Without Checking
 If someone uploaded a contract or plan, make sure you don't need it before deleting. Once deleted, it's gone.  
@@ -343,4 +343,3 @@ No, you cannot recover deleted documents. You'll need to re-upload it. If you di
 **Related Docs:**
 - [The Project Page](the-project-page.md)
 - [Creating a Project](creating-a-project.md)
-- [Advancing to Next Stage](../stages/advancing-to-next-stage.md)

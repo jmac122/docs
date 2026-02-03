@@ -445,16 +445,12 @@ Before advancing to Demobilization, verify:
 
 Once Construction is done, you advance to **Demobilization** — cleaning up and closing out the site.
 
-[Read more: Demobilization Stage](demobilization.md)  
-[Read more: Advancing to Next Stage](advancing-to-next-stage.md)
 
 ---
 
 **Related Docs:**
 - [How Stages Work](how-stages-work.md)
 - [Mobilization Stage](mobilization.md)
-- [Demobilization Stage](demobilization.md)
-- [Advancing to Next Stage](advancing-to-next-stage.md)
 
 ---
 

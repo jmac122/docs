@@ -123,7 +123,6 @@ Here's the magic:
 - Crew demobilization
 - Document handoff
 
-[Read more: Demobilization Details](demobilization.md)
 
 ---
 
@@ -140,7 +139,6 @@ Here's the magic:
 - Project archiving
 - Lessons learned capture
 
-[Read more: Retainage Details](retainage.md)
 
 ---
 
@@ -155,7 +153,6 @@ When you're ready to move to the next stage:
 
 Tasks for all stages already exist — changing the stage just updates which phase you're tracking as active.
 
-[Read more: Advancing to Next Stage](advancing-to-next-stage.md)
 
 ---
 
@@ -380,9 +377,6 @@ PROJECT CREATED
 ---
 
 **Related Docs:**
-- [Advancing to Next Stage](advancing-to-next-stage.md)
 - [Pre-Construction Details](pre-construction.md)
 - [Mobilization Details](mobilization.md)
 - [Construction Details](construction.md)
-- [Demobilization Details](demobilization.md)
-- [Retainage Details](retainage.md)

@@ -198,7 +198,6 @@ When "Submittal approved" is marked Complete → "Order rebar" auto-advances to 
 Dependent task waiting for prerequisite to complete - task with Pending status showing Dependencies field
 :::
 
-[Read more: Understanding Task Dependencies](../../sops/PSP-000.1-task-dependencies.md) [NEEDS VERIFICATION: Does this SOP exist?]
 
 ---
 
@@ -373,13 +372,11 @@ Before advancing to Mobilization, verify:
 Once Pre-Con is done, you advance to **Mobilization**.
 
 [Read more: Mobilization Stage](mobilization.md)  
-[Read more: Advancing to Next Stage](advancing-to-next-stage.md)
 
 ---
 
 **Related Docs:**
 - [How Stages Work](how-stages-work.md)
-- [Advancing to Next Stage](advancing-to-next-stage.md)
 - [The Project Page](../projects/the-project-page.md)
 
 ---
